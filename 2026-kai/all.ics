@@ -1,0 +1,6192 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASEA COLLEGE//KAI 2026//KO
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:2026 직업계고 카이과정
+X-WR-TIMEZONE:Asia/Seoul
+BEGIN:VEVENT
+UID:a-5@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261026T093000
+DTEND;TZID=Asia/Seoul:20261026T103000
+SUMMARY:[A반] 입학식
+LOCATION:309호
+DESCRIPTION:1교시 / 강사: \n재량교과\nhttps://asea-college.github
+ .io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-6@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261026T103000
+DTEND;TZID=Asia/Seoul:20261026T113000
+SUMMARY:[A반] 오리엔테이션
+LOCATION:403호
+DESCRIPTION:2교시 / 강사: 권혁준\n재량교과\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-7@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261026T113000
+DTEND;TZID=Asia/Seoul:20261026T123000
+SUMMARY:[A반] 오리엔테이션
+LOCATION:403호
+DESCRIPTION:3교시 / 강사: 권혁준\n재량교과\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-8@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261026T133000
+DTEND;TZID=Asia/Seoul:20261026T143000
+SUMMARY:[A반] 사전평가 (이론)
+LOCATION:403호
+DESCRIPTION:5교시 / 강사: 권혁준\n평 가\nhttps://asea-college.gi
+ thub.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-9@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261026T143000
+DTEND;TZID=Asia/Seoul:20261026T153000
+SUMMARY:[A반] 보안의식
+LOCATION:403호
+DESCRIPTION:6교시 / 강사: 함우형\n직장생활\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-10@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261026T153000
+DTEND;TZID=Asia/Seoul:20261026T163000
+SUMMARY:[A반] 보안의식
+LOCATION:403호
+DESCRIPTION:7교시 / 강사: 함우형\n직장생활\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-11@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261026T163000
+DTEND;TZID=Asia/Seoul:20261026T173000
+SUMMARY:[A반] 보안의식
+LOCATION:403호
+DESCRIPTION:8교시 / 강사: 함우형\n직장생활\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-12@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261027T093000
+DTEND;TZID=Asia/Seoul:20261027T103000
+SUMMARY:[A반] 항공우주산업 및 KAI 이해
+LOCATION:403호
+DESCRIPTION:1교시 / 강사: 권오건\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-13@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261027T103000
+DTEND;TZID=Asia/Seoul:20261027T113000
+SUMMARY:[A반] 항공우주산업 및 KAI 이해
+LOCATION:403호
+DESCRIPTION:2교시 / 강사: 권오건\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-14@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261027T113000
+DTEND;TZID=Asia/Seoul:20261027T123000
+SUMMARY:[A반] 항공우주산업 및 KAI 이해
+LOCATION:403호
+DESCRIPTION:3교시 / 강사: 권오건\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-15@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261027T133000
+DTEND;TZID=Asia/Seoul:20261027T143000
+SUMMARY:[A반] 항공역사와 비행원리
+LOCATION:403호
+DESCRIPTION:5교시 / 강사: 송용우\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-16@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261027T143000
+DTEND;TZID=Asia/Seoul:20261027T153000
+SUMMARY:[A반] 항공역사와 비행원리
+LOCATION:403호
+DESCRIPTION:6교시 / 강사: 송용우\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-17@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261027T153000
+DTEND;TZID=Asia/Seoul:20261027T163000
+SUMMARY:[A반] 항공역사와 비행원리
+LOCATION:403호
+DESCRIPTION:7교시 / 강사: 송용우\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-18@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261027T163000
+DTEND;TZID=Asia/Seoul:20261027T173000
+SUMMARY:[A반] 항공역사와 비행원리
+LOCATION:403호
+DESCRIPTION:8교시 / 강사: 송용우\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-19@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261028T093000
+DTEND;TZID=Asia/Seoul:20261028T103000
+SUMMARY:[A반] 항공기기체 부품 기계가공\, 조립
+LOCATION:403호
+DESCRIPTION:1교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-20@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261028T103000
+DTEND;TZID=Asia/Seoul:20261028T113000
+SUMMARY:[A반] 항공기기체 부품 기계가공\, 조립
+LOCATION:403호
+DESCRIPTION:2교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-21@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261028T113000
+DTEND;TZID=Asia/Seoul:20261028T123000
+SUMMARY:[A반] 항공기기체 부품 기계가공\, 조립
+LOCATION:403호
+DESCRIPTION:3교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-22@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261028T133000
+DTEND;TZID=Asia/Seoul:20261028T143000
+SUMMARY:[A반] 직업윤리\, 조직문화 및 의사소통
+LOCATION:403호
+DESCRIPTION:5교시 / 강사: 박신영\n직장생활\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-23@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261028T143000
+DTEND;TZID=Asia/Seoul:20261028T153000
+SUMMARY:[A반] 직업윤리\, 조직문화 및 의사소통
+LOCATION:403호
+DESCRIPTION:6교시 / 강사: 박신영\n직장생활\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-24@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261028T153000
+DTEND;TZID=Asia/Seoul:20261028T163000
+SUMMARY:[A반] 직업윤리\, 조직문화 및 의사소통
+LOCATION:403호
+DESCRIPTION:7교시 / 강사: 박신영\n직장생활\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-25@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261028T163000
+DTEND;TZID=Asia/Seoul:20261028T173000
+SUMMARY:[A반] 학습일지작성
+LOCATION:403호
+DESCRIPTION:8교시 / 강사: 권혁준\n직장생활\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-26@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261029T093000
+DTEND;TZID=Asia/Seoul:20261029T103000
+SUMMARY:[A반] 항공 안전(안전\, 품질)
+LOCATION:403호
+DESCRIPTION:1교시 / 강사: 박성태\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-27@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261029T103000
+DTEND;TZID=Asia/Seoul:20261029T113000
+SUMMARY:[A반] 항공 안전(안전\, 품질)
+LOCATION:403호
+DESCRIPTION:2교시 / 강사: 박성태\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-28@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261029T113000
+DTEND;TZID=Asia/Seoul:20261029T123000
+SUMMARY:[A반] 항공 안전(안전\, 품질)
+LOCATION:403호
+DESCRIPTION:3교시 / 강사: 박성태\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-29@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261029T133000
+DTEND;TZID=Asia/Seoul:20261029T143000
+SUMMARY:[A반] 항공기 기체 구조의 이해
+LOCATION:403호
+DESCRIPTION:5교시 / 강사: 권오건\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-30@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261029T143000
+DTEND;TZID=Asia/Seoul:20261029T153000
+SUMMARY:[A반] 항공기 기체 구조의 이해
+LOCATION:403호
+DESCRIPTION:6교시 / 강사: 권오건\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-31@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261029T153000
+DTEND;TZID=Asia/Seoul:20261029T163000
+SUMMARY:[A반] 항공기 기체 구조의 이해
+LOCATION:403호
+DESCRIPTION:7교시 / 강사: 권오건\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-32@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261029T163000
+DTEND;TZID=Asia/Seoul:20261029T173000
+SUMMARY:[A반] 항공기 기체 구조의 이해
+LOCATION:403호
+DESCRIPTION:8교시 / 강사: 권오건\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-33@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261030T093000
+DTEND;TZID=Asia/Seoul:20261030T103000
+SUMMARY:[A반] 비행 시뮬레이터 실습
+LOCATION:306호
+DESCRIPTION:1교시 / 강사: 송용우\n비행원리 및 조종원리 
+ 이해\nhttps://asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-34@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261030T103000
+DTEND;TZID=Asia/Seoul:20261030T113000
+SUMMARY:[A반] 비행 시뮬레이터 실습
+LOCATION:306호
+DESCRIPTION:2교시 / 강사: 송용우\n비행원리 및 조종원리 
+ 이해\nhttps://asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-35@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261030T113000
+DTEND;TZID=Asia/Seoul:20261030T123000
+SUMMARY:[A반] 비행 시뮬레이터 실습
+LOCATION:306호
+DESCRIPTION:3교시 / 강사: 송용우\n비행원리 및 조종원리 
+ 이해\nhttps://asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-36@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261030T133000
+DTEND;TZID=Asia/Seoul:20261030T143000
+SUMMARY:[A반] 도면 이해\, 기하공차
+LOCATION:403호
+DESCRIPTION:5교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-37@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261030T143000
+DTEND;TZID=Asia/Seoul:20261030T153000
+SUMMARY:[A반] 도면 이해\, 기하공차
+LOCATION:403호
+DESCRIPTION:6교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-38@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261030T153000
+DTEND;TZID=Asia/Seoul:20261030T163000
+SUMMARY:[A반] 도면 이해\, 기하공차
+LOCATION:403호
+DESCRIPTION:7교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-39@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261030T163000
+DTEND;TZID=Asia/Seoul:20261030T173000
+SUMMARY:[A반] 도면 이해\, 기하공차
+LOCATION:403호
+DESCRIPTION:8교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-40@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261102T093000
+DTEND;TZID=Asia/Seoul:20261102T103000
+SUMMARY:[A반] 항공기 기체 구조\, 엔진\, 시스템의 이해
+LOCATION:403호
+DESCRIPTION:1교시 / 강사: 권오건\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-41@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261102T103000
+DTEND;TZID=Asia/Seoul:20261102T113000
+SUMMARY:[A반] 항공기 기체 구조\, 엔진\, 시스템의 이해
+LOCATION:403호
+DESCRIPTION:2교시 / 강사: 권오건\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-42@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261102T113000
+DTEND;TZID=Asia/Seoul:20261102T123000
+SUMMARY:[A반] 항공기 기체 구조\, 엔진\, 시스템의 이해
+LOCATION:403호
+DESCRIPTION:3교시 / 강사: 권오건\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-43@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261102T133000
+DTEND;TZID=Asia/Seoul:20261102T143000
+SUMMARY:[A반] 항공기술영어 (용어)
+LOCATION:403호
+DESCRIPTION:5교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-44@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261102T143000
+DTEND;TZID=Asia/Seoul:20261102T153000
+SUMMARY:[A반] 항공기술영어 (용어)
+LOCATION:403호
+DESCRIPTION:6교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-45@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261102T153000
+DTEND;TZID=Asia/Seoul:20261102T163000
+SUMMARY:[A반] 항공기술영어 (용어)
+LOCATION:403호
+DESCRIPTION:7교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-46@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261102T163000
+DTEND;TZID=Asia/Seoul:20261102T173000
+SUMMARY:[A반] 항공기술영어 (용어)
+LOCATION:403호
+DESCRIPTION:8교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-47@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261103T093000
+DTEND;TZID=Asia/Seoul:20261103T103000
+SUMMARY:[A반] 법정의무교육
+LOCATION:403호
+DESCRIPTION:1교시 / 강사: 박신영\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-48@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261103T103000
+DTEND;TZID=Asia/Seoul:20261103T113000
+SUMMARY:[A반] 법정의무교육
+LOCATION:403호
+DESCRIPTION:2교시 / 강사: 박신영\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-49@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261103T113000
+DTEND;TZID=Asia/Seoul:20261103T123000
+SUMMARY:[A반] 법정의무교육
+LOCATION:403호
+DESCRIPTION:3교시 / 강사: 박신영\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-50@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261103T133000
+DTEND;TZID=Asia/Seoul:20261103T143000
+SUMMARY:[A반] 인턴·정식사원·인생 성장계획
+LOCATION:403호
+DESCRIPTION:5교시 / 강사: 김형래\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-51@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261103T143000
+DTEND;TZID=Asia/Seoul:20261103T153000
+SUMMARY:[A반] 인턴·정식사원·인생 성장계획
+LOCATION:403호
+DESCRIPTION:6교시 / 강사: 김형래\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-52@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261103T153000
+DTEND;TZID=Asia/Seoul:20261103T163000
+SUMMARY:[A반] 인턴·정식사원·인생 성장계획
+LOCATION:403호
+DESCRIPTION:7교시 / 강사: 김형래\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-53@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261103T163000
+DTEND;TZID=Asia/Seoul:20261103T173000
+SUMMARY:[A반] 인턴·정식사원·인생 성장계획
+LOCATION:403호
+DESCRIPTION:8교시 / 강사: 김형래\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-54@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261104T093000
+DTEND;TZID=Asia/Seoul:20261104T103000
+SUMMARY:[A반] 항공기기체 부품 열처리\, 검사
+LOCATION:403호
+DESCRIPTION:1교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-55@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261104T103000
+DTEND;TZID=Asia/Seoul:20261104T113000
+SUMMARY:[A반] 항공기기체 부품 열처리\, 검사
+LOCATION:403호
+DESCRIPTION:2교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-56@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261104T113000
+DTEND;TZID=Asia/Seoul:20261104T123000
+SUMMARY:[A반] 항공기기체 부품 열처리\, 검사
+LOCATION:403호
+DESCRIPTION:3교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-57@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261104T133000
+DTEND;TZID=Asia/Seoul:20261104T143000
+SUMMARY:[A반] 항공기술영어 (용어)
+LOCATION:403호
+DESCRIPTION:5교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-58@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261104T143000
+DTEND;TZID=Asia/Seoul:20261104T153000
+SUMMARY:[A반] 항공기술영어 (용어)
+LOCATION:403호
+DESCRIPTION:6교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-59@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261104T153000
+DTEND;TZID=Asia/Seoul:20261104T163000
+SUMMARY:[A반] 항공기술영어 (용어)
+LOCATION:403호
+DESCRIPTION:7교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-60@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261104T163000
+DTEND;TZID=Asia/Seoul:20261104T173000
+SUMMARY:[A반] 항공기술영어 (용어)
+LOCATION:403호
+DESCRIPTION:8교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-61@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261105T093000
+DTEND;TZID=Asia/Seoul:20261105T103000
+SUMMARY:[A반] 항공기 기체 구조\, 엔진\, 시스템의 이해
+LOCATION:403호
+DESCRIPTION:1교시 / 강사: 권오건\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-62@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261105T103000
+DTEND;TZID=Asia/Seoul:20261105T113000
+SUMMARY:[A반] 항공기 기체 구조\, 엔진\, 시스템의 이해
+LOCATION:403호
+DESCRIPTION:2교시 / 강사: 권오건\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-63@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261105T113000
+DTEND;TZID=Asia/Seoul:20261105T123000
+SUMMARY:[A반] 항공기 기체 구조\, 엔진\, 시스템의 이해
+LOCATION:403호
+DESCRIPTION:3교시 / 강사: 권오건\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-64@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261105T133000
+DTEND;TZID=Asia/Seoul:20261105T143000
+SUMMARY:[A반] 항공기 기체 구조\, 엔진\, 시스템의 이해
+LOCATION:403호
+DESCRIPTION:5교시 / 강사: 권오건\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-65@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261105T143000
+DTEND;TZID=Asia/Seoul:20261105T153000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:6교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-66@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261105T153000
+DTEND;TZID=Asia/Seoul:20261105T163000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:7교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-67@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261105T163000
+DTEND;TZID=Asia/Seoul:20261105T173000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:8교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-68@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261106T093000
+DTEND;TZID=Asia/Seoul:20261106T103000
+SUMMARY:[A반] 비행 시뮬레이터 실습
+LOCATION:306호
+DESCRIPTION:1교시 / 강사: 송용우\n비행원리 및 조종원리 
+ 이해\nhttps://asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-69@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261106T103000
+DTEND;TZID=Asia/Seoul:20261106T113000
+SUMMARY:[A반] 비행 시뮬레이터 실습
+LOCATION:306호
+DESCRIPTION:2교시 / 강사: 송용우\n비행원리 및 조종원리 
+ 이해\nhttps://asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-70@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261106T113000
+DTEND;TZID=Asia/Seoul:20261106T123000
+SUMMARY:[A반] 비행 시뮬레이터 실습
+LOCATION:306호
+DESCRIPTION:3교시 / 강사: 송용우\n비행원리 및 조종원리 
+ 이해\nhttps://asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-71@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261106T133000
+DTEND;TZID=Asia/Seoul:20261106T143000
+SUMMARY:[A반] 항공기기체 부품 화학처리
+LOCATION:403호
+DESCRIPTION:5교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-72@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261106T143000
+DTEND;TZID=Asia/Seoul:20261106T153000
+SUMMARY:[A반] 항공기기체 부품 화학처리
+LOCATION:403호
+DESCRIPTION:6교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-73@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261106T153000
+DTEND;TZID=Asia/Seoul:20261106T163000
+SUMMARY:[A반] 항공기기체 부품 화학처리
+LOCATION:403호
+DESCRIPTION:7교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-74@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261106T163000
+DTEND;TZID=Asia/Seoul:20261106T173000
+SUMMARY:[A반] 항공기기체 부품 화학처리
+LOCATION:403호
+DESCRIPTION:8교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-75@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261109T093000
+DTEND;TZID=Asia/Seoul:20261109T103000
+SUMMARY:[A반] 항공기술영어 (용어)
+LOCATION:403호
+DESCRIPTION:1교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-76@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261109T103000
+DTEND;TZID=Asia/Seoul:20261109T113000
+SUMMARY:[A반] 항공기술영어 (용어)
+LOCATION:403호
+DESCRIPTION:2교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-77@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261109T113000
+DTEND;TZID=Asia/Seoul:20261109T123000
+SUMMARY:[A반] 항공기술영어 (용어)
+LOCATION:403호
+DESCRIPTION:3교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-78@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261109T133000
+DTEND;TZID=Asia/Seoul:20261109T143000
+SUMMARY:[A반] 항공기 안전(FOD\, 작업 후 확인\, 공구 및 부
+ 품 관리)
+LOCATION:403호
+DESCRIPTION:5교시 / 강사: 박성태\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-79@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261109T143000
+DTEND;TZID=Asia/Seoul:20261109T153000
+SUMMARY:[A반] 항공기 안전(FOD\, 작업 후 확인\, 공구 및 부
+ 품 관리)
+LOCATION:403호
+DESCRIPTION:6교시 / 강사: 박성태\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-80@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261109T153000
+DTEND;TZID=Asia/Seoul:20261109T163000
+SUMMARY:[A반] 항공기 안전(FOD\, 작업 후 확인\, 공구 및 부
+ 품 관리)
+LOCATION:403호
+DESCRIPTION:7교시 / 강사: 박성태\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-81@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261109T163000
+DTEND;TZID=Asia/Seoul:20261109T173000
+SUMMARY:[A반] 항공기 안전(FOD\, 작업 후 확인\, 공구 및 부
+ 품 관리)
+LOCATION:403호
+DESCRIPTION:8교시 / 강사: 박성태\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-82@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261110T093000
+DTEND;TZID=Asia/Seoul:20261110T103000
+SUMMARY:[A반] 인턴·정식사원·인생 성장계획
+LOCATION:403호
+DESCRIPTION:1교시 / 강사: 김형래\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-83@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261110T103000
+DTEND;TZID=Asia/Seoul:20261110T113000
+SUMMARY:[A반] 인턴·정식사원·인생 성장계획
+LOCATION:403호
+DESCRIPTION:2교시 / 강사: 김형래\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-84@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261110T113000
+DTEND;TZID=Asia/Seoul:20261110T123000
+SUMMARY:[A반] 인턴·정식사원·인생 성장계획
+LOCATION:403호
+DESCRIPTION:3교시 / 강사: 김형래\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-85@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261110T133000
+DTEND;TZID=Asia/Seoul:20261110T143000
+SUMMARY:[A반] 일반 취업준비
+LOCATION:306호
+DESCRIPTION:5교시 / 강사: 박신영\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-86@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261110T143000
+DTEND;TZID=Asia/Seoul:20261110T153000
+SUMMARY:[A반] 일반 취업준비
+LOCATION:306호
+DESCRIPTION:6교시 / 강사: 박신영\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-87@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261110T153000
+DTEND;TZID=Asia/Seoul:20261110T163000
+SUMMARY:[A반] 일반 취업준비
+LOCATION:306호
+DESCRIPTION:7교시 / 강사: 박신영\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-88@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261110T163000
+DTEND;TZID=Asia/Seoul:20261110T173000
+SUMMARY:[A반] 일반 취업준비
+LOCATION:306호
+DESCRIPTION:8교시 / 강사: 박신영\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-89@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261111T093000
+DTEND;TZID=Asia/Seoul:20261111T103000
+SUMMARY:[A반] 항공기기체 검사
+LOCATION:403호
+DESCRIPTION:1교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-90@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261111T103000
+DTEND;TZID=Asia/Seoul:20261111T113000
+SUMMARY:[A반] 항공기기체 검사
+LOCATION:403호
+DESCRIPTION:2교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-91@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261111T113000
+DTEND;TZID=Asia/Seoul:20261111T123000
+SUMMARY:[A반] 항공기기체 검사
+LOCATION:403호
+DESCRIPTION:3교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-92@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261111T133000
+DTEND;TZID=Asia/Seoul:20261111T143000
+SUMMARY:[A반] 산업안전(5S\, 위험예지)
+LOCATION:403호
+DESCRIPTION:5교시 / 강사: 박성태\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-93@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261111T143000
+DTEND;TZID=Asia/Seoul:20261111T153000
+SUMMARY:[A반] 산업안전(5S\, 위험예지)
+LOCATION:403호
+DESCRIPTION:6교시 / 강사: 박성태\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-94@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261111T153000
+DTEND;TZID=Asia/Seoul:20261111T163000
+SUMMARY:[A반] 산업안전(5S\, 위험예지)
+LOCATION:403호
+DESCRIPTION:7교시 / 강사: 박성태\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-95@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261111T163000
+DTEND;TZID=Asia/Seoul:20261111T173000
+SUMMARY:[A반] 산업안전(5S\, 위험예지)
+LOCATION:403호
+DESCRIPTION:8교시 / 강사: 박성태\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-96@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261112T093000
+DTEND;TZID=Asia/Seoul:20261112T103000
+SUMMARY:[A반] 단위구성품 시험하기\, 장비 통합\, ESS 시험
+ 하기
+LOCATION:403호
+DESCRIPTION:1교시 / 강사: 심우제\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-97@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261112T103000
+DTEND;TZID=Asia/Seoul:20261112T113000
+SUMMARY:[A반] 단위구성품 시험하기\, 장비 통합\, ESS 시험
+ 하기
+LOCATION:403호
+DESCRIPTION:2교시 / 강사: 심우제\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-98@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261112T113000
+DTEND;TZID=Asia/Seoul:20261112T123000
+SUMMARY:[A반] 단위구성품 시험하기\, 장비 통합\, ESS 시험
+ 하기
+LOCATION:403호
+DESCRIPTION:3교시 / 강사: 심우제\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-99@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261112T133000
+DTEND;TZID=Asia/Seoul:20261112T143000
+SUMMARY:[A반] AI 프로그램 이해
+LOCATION:403호
+DESCRIPTION:5교시 / 강사: 방대원\nAI 기본교육\nhttps://asea-co
+ llege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-100@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261112T143000
+DTEND;TZID=Asia/Seoul:20261112T153000
+SUMMARY:[A반] AI 프로그램 이해
+LOCATION:403호
+DESCRIPTION:6교시 / 강사: 방대원\nAI 기본교육\nhttps://asea-co
+ llege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-101@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261112T153000
+DTEND;TZID=Asia/Seoul:20261112T163000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:7교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-102@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261112T163000
+DTEND;TZID=Asia/Seoul:20261112T173000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:8교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-103@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261113T093000
+DTEND;TZID=Asia/Seoul:20261113T103000
+SUMMARY:[A반] 단위구성품 시험하기\, 장비 통합\, ESS 시험
+ 하기
+LOCATION:403호
+DESCRIPTION:1교시 / 강사: 심우제\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-104@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261113T103000
+DTEND;TZID=Asia/Seoul:20261113T113000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:2교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-105@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261113T113000
+DTEND;TZID=Asia/Seoul:20261113T123000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:3교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-106@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261113T133000
+DTEND;TZID=Asia/Seoul:20261113T143000
+SUMMARY:[A반] 현업실무자 특강
+LOCATION:403호
+DESCRIPTION:5교시 / 강사: KAI\n현업실무자 특강\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-107@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261113T143000
+DTEND;TZID=Asia/Seoul:20261113T153000
+SUMMARY:[A반] 현업실무자 특강
+LOCATION:403호
+DESCRIPTION:6교시 / 강사: KAI\n현업실무자 특강\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-108@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261113T153000
+DTEND;TZID=Asia/Seoul:20261113T163000
+SUMMARY:[A반] 치공구 설계\, 제작\, 관리
+LOCATION:403호
+DESCRIPTION:7교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-109@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261113T163000
+DTEND;TZID=Asia/Seoul:20261113T173000
+SUMMARY:[A반] 치공구 설계\, 제작\, 관리
+LOCATION:403호
+DESCRIPTION:8교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-110@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261116T093000
+DTEND;TZID=Asia/Seoul:20261116T103000
+SUMMARY:[A반] 전선 교환하기\, 스플라이스 작업하기 실습
+LOCATION:308호
+DESCRIPTION:1교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-111@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261116T103000
+DTEND;TZID=Asia/Seoul:20261116T113000
+SUMMARY:[A반] 전선 교환하기\, 스플라이스 작업하기 실습
+LOCATION:308호
+DESCRIPTION:2교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-112@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261116T113000
+DTEND;TZID=Asia/Seoul:20261116T123000
+SUMMARY:[A반] 전선 교환하기\, 스플라이스 작업하기 실습
+LOCATION:308호
+DESCRIPTION:3교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-113@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261116T133000
+DTEND;TZID=Asia/Seoul:20261116T143000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:202호
+DESCRIPTION:5교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-114@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261116T143000
+DTEND;TZID=Asia/Seoul:20261116T153000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:202호
+DESCRIPTION:6교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-115@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261116T153000
+DTEND;TZID=Asia/Seoul:20261116T163000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:202호
+DESCRIPTION:7교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-116@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261116T163000
+DTEND;TZID=Asia/Seoul:20261116T173000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:202호
+DESCRIPTION:8교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-117@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261117T093000
+DTEND;TZID=Asia/Seoul:20261117T103000
+SUMMARY:[A반] KAI 신입직원 준비
+LOCATION:403호
+DESCRIPTION:1교시 / 강사: 박신영\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-118@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261117T103000
+DTEND;TZID=Asia/Seoul:20261117T113000
+SUMMARY:[A반] KAI 신입직원 준비
+LOCATION:403호
+DESCRIPTION:2교시 / 강사: 박신영\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-119@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261117T113000
+DTEND;TZID=Asia/Seoul:20261117T123000
+SUMMARY:[A반] KAI 신입직원 준비
+LOCATION:403호
+DESCRIPTION:3교시 / 강사: 박신영\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-120@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261117T133000
+DTEND;TZID=Asia/Seoul:20261117T143000
+SUMMARY:[A반] 전선 교환하기\, 스플라이스 작업하기 실습
+LOCATION:308호
+DESCRIPTION:5교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-121@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261117T143000
+DTEND;TZID=Asia/Seoul:20261117T153000
+SUMMARY:[A반] 전선 교환하기\, 스플라이스 작업하기 실습
+LOCATION:308호
+DESCRIPTION:6교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-122@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261117T153000
+DTEND;TZID=Asia/Seoul:20261117T163000
+SUMMARY:[A반] 전선 교환하기\, 스플라이스 작업하기 실습
+LOCATION:308호
+DESCRIPTION:7교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-123@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261117T163000
+DTEND;TZID=Asia/Seoul:20261117T173000
+SUMMARY:[A반] 전선 교환하기\, 스플라이스 작업하기 실습
+LOCATION:308호
+DESCRIPTION:8교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-124@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261118T093000
+DTEND;TZID=Asia/Seoul:20261118T103000
+SUMMARY:[A반] 비행 시뮬레이터 실습
+LOCATION:306호
+DESCRIPTION:1교시 / 강사: 송용우\n비행원리 및 조종원리 
+ 이해\nhttps://asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-125@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261118T103000
+DTEND;TZID=Asia/Seoul:20261118T113000
+SUMMARY:[A반] 비행 시뮬레이터 실습
+LOCATION:306호
+DESCRIPTION:2교시 / 강사: 송용우\n비행원리 및 조종원리 
+ 이해\nhttps://asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-126@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261118T113000
+DTEND;TZID=Asia/Seoul:20261118T123000
+SUMMARY:[A반] 비행 시뮬레이터 실습
+LOCATION:306호
+DESCRIPTION:3교시 / 강사: 송용우\n비행원리 및 조종원리 
+ 이해\nhttps://asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-127@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261118T133000
+DTEND;TZID=Asia/Seoul:20261118T143000
+SUMMARY:[A반] 항공기술영어 (용어)
+LOCATION:403호
+DESCRIPTION:5교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-128@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261118T143000
+DTEND;TZID=Asia/Seoul:20261118T153000
+SUMMARY:[A반] 항공기술영어 (용어)
+LOCATION:403호
+DESCRIPTION:6교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-129@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261118T153000
+DTEND;TZID=Asia/Seoul:20261118T163000
+SUMMARY:[A반] 항공기술영어 (용어)
+LOCATION:403호
+DESCRIPTION:7교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-130@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261118T163000
+DTEND;TZID=Asia/Seoul:20261118T173000
+SUMMARY:[A반] 항공기술영어 (용어)
+LOCATION:403호
+DESCRIPTION:8교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-131@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261119T093000
+DTEND;TZID=Asia/Seoul:20261119T103000
+SUMMARY:[A반] 각 조별 KF-21 모형제작
+LOCATION:403호
+DESCRIPTION:1교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-132@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261119T103000
+DTEND;TZID=Asia/Seoul:20261119T113000
+SUMMARY:[A반] 각 조별 KF-21 모형제작
+LOCATION:403호
+DESCRIPTION:2교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-133@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261119T113000
+DTEND;TZID=Asia/Seoul:20261119T123000
+SUMMARY:[A반] 각 조별 KF-21 모형제작
+LOCATION:403호
+DESCRIPTION:3교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-134@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261119T133000
+DTEND;TZID=Asia/Seoul:20261119T143000
+SUMMARY:[A반] 각 조별 KF-21 모형제작
+LOCATION:403호
+DESCRIPTION:5교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-135@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261119T143000
+DTEND;TZID=Asia/Seoul:20261119T153000
+SUMMARY:[A반] 각 조별 KF-21 모형제작
+LOCATION:403호
+DESCRIPTION:6교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-136@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261119T153000
+DTEND;TZID=Asia/Seoul:20261119T163000
+SUMMARY:[A반] 각 조별 KF-21 모형제작
+LOCATION:403호
+DESCRIPTION:7교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-137@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261119T163000
+DTEND;TZID=Asia/Seoul:20261119T173000
+SUMMARY:[A반] 각 조별 KF-21 모형제작
+LOCATION:403호
+DESCRIPTION:8교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-138@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261120T093000
+DTEND;TZID=Asia/Seoul:20261120T103000
+SUMMARY:[A반] 전선 교환하기\, 스플라이스 작업하기 실습
+LOCATION:308호
+DESCRIPTION:1교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-139@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261120T103000
+DTEND;TZID=Asia/Seoul:20261120T113000
+SUMMARY:[A반] 전선 교환하기\, 스플라이스 작업하기 실습
+LOCATION:308호
+DESCRIPTION:2교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-140@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261120T113000
+DTEND;TZID=Asia/Seoul:20261120T123000
+SUMMARY:[A반] 전선 교환하기\, 스플라이스 작업하기 실습
+LOCATION:308호
+DESCRIPTION:3교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-141@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261120T133000
+DTEND;TZID=Asia/Seoul:20261120T143000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:5교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-142@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261120T143000
+DTEND;TZID=Asia/Seoul:20261120T153000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:6교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-143@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261120T153000
+DTEND;TZID=Asia/Seoul:20261120T163000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:7교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-144@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261120T163000
+DTEND;TZID=Asia/Seoul:20261120T173000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:8교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-145@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261123T093000
+DTEND;TZID=Asia/Seoul:20261123T103000
+SUMMARY:[A반] 커넥터\, 터미널 작업하기 실습
+LOCATION:308호
+DESCRIPTION:1교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-146@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261123T103000
+DTEND;TZID=Asia/Seoul:20261123T113000
+SUMMARY:[A반] 커넥터\, 터미널 작업하기 실습
+LOCATION:308호
+DESCRIPTION:2교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-147@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261123T113000
+DTEND;TZID=Asia/Seoul:20261123T123000
+SUMMARY:[A반] 커넥터\, 터미널 작업하기 실습
+LOCATION:308호
+DESCRIPTION:3교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-148@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261123T133000
+DTEND;TZID=Asia/Seoul:20261123T143000
+SUMMARY:[A반] 현업실무자 특강
+LOCATION:403호
+DESCRIPTION:5교시 / 강사: KAI\n현업실무자 특강\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-149@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261123T143000
+DTEND;TZID=Asia/Seoul:20261123T153000
+SUMMARY:[A반] 현업실무자 특강
+LOCATION:403호
+DESCRIPTION:6교시 / 강사: KAI\n현업실무자 특강\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-150@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261123T153000
+DTEND;TZID=Asia/Seoul:20261123T163000
+SUMMARY:[A반] 치공구 설계\, 제작\, 관리
+LOCATION:403호
+DESCRIPTION:7교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-151@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261123T163000
+DTEND;TZID=Asia/Seoul:20261123T173000
+SUMMARY:[A반] 치공구 설계\, 제작\, 관리
+LOCATION:403호
+DESCRIPTION:8교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-152@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261124T093000
+DTEND;TZID=Asia/Seoul:20261124T103000
+SUMMARY:[A반] 항공박물관 및 인천공항 전망대
+LOCATION:
+DESCRIPTION:1교시 / 강사: 권혁준\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-153@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261124T103000
+DTEND;TZID=Asia/Seoul:20261124T113000
+SUMMARY:[A반] 항공박물관 및 인천공항 전망대
+LOCATION:
+DESCRIPTION:2교시 / 강사: 권혁준\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-154@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261124T113000
+DTEND;TZID=Asia/Seoul:20261124T123000
+SUMMARY:[A반] 항공박물관 및 인천공항 전망대
+LOCATION:
+DESCRIPTION:3교시 / 강사: 권혁준\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-155@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261124T133000
+DTEND;TZID=Asia/Seoul:20261124T143000
+SUMMARY:[A반] 항공박물관 및 인천공항 전망대
+LOCATION:
+DESCRIPTION:5교시 / 강사: 권혁준\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-156@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261124T143000
+DTEND;TZID=Asia/Seoul:20261124T153000
+SUMMARY:[A반] 항공박물관 및 인천공항 전망대
+LOCATION:
+DESCRIPTION:6교시 / 강사: 권혁준\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-157@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261124T153000
+DTEND;TZID=Asia/Seoul:20261124T163000
+SUMMARY:[A반] 항공박물관 및 인천공항 전망대
+LOCATION:
+DESCRIPTION:7교시 / 강사: 권혁준\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-158@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261124T163000
+DTEND;TZID=Asia/Seoul:20261124T173000
+SUMMARY:[A반] 항공박물관 및 인천공항 전망대
+LOCATION:
+DESCRIPTION:8교시 / 강사: 권혁준\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-159@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261125T093000
+DTEND;TZID=Asia/Seoul:20261125T103000
+SUMMARY:[A반] 항공기술영어 (용어)
+LOCATION:403호
+DESCRIPTION:1교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-160@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261125T103000
+DTEND;TZID=Asia/Seoul:20261125T113000
+SUMMARY:[A반] 항공기술영어 (용어)
+LOCATION:403호
+DESCRIPTION:2교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-161@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261125T113000
+DTEND;TZID=Asia/Seoul:20261125T123000
+SUMMARY:[A반] 항공기술영어 (용어)
+LOCATION:403호
+DESCRIPTION:3교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-162@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261125T133000
+DTEND;TZID=Asia/Seoul:20261125T143000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:202호
+DESCRIPTION:5교시 / 강사: 김현수\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-163@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261125T143000
+DTEND;TZID=Asia/Seoul:20261125T153000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:202호
+DESCRIPTION:6교시 / 강사: 김현수\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-164@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261125T153000
+DTEND;TZID=Asia/Seoul:20261125T163000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:202호
+DESCRIPTION:7교시 / 강사: 김현수\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-165@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261125T163000
+DTEND;TZID=Asia/Seoul:20261125T173000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:202호
+DESCRIPTION:8교시 / 강사: 김현수\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-166@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261126T093000
+DTEND;TZID=Asia/Seoul:20261126T103000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:203호
+DESCRIPTION:1교시 / 강사: 권혁준\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-167@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261126T103000
+DTEND;TZID=Asia/Seoul:20261126T113000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:203호
+DESCRIPTION:2교시 / 강사: 권혁준\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-168@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261126T113000
+DTEND;TZID=Asia/Seoul:20261126T123000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:203호
+DESCRIPTION:3교시 / 강사: 권혁준\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-169@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261126T133000
+DTEND;TZID=Asia/Seoul:20261126T143000
+SUMMARY:[A반] AI 프로그램 이해
+LOCATION:403호
+DESCRIPTION:5교시 / 강사: 방대원\nAI 기본교육\nhttps://asea-co
+ llege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-170@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261126T143000
+DTEND;TZID=Asia/Seoul:20261126T153000
+SUMMARY:[A반] AI 이미지 생성의 세계
+LOCATION:403호
+DESCRIPTION:6교시 / 강사: 방대원\nAI 기본교육\nhttps://asea-co
+ llege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-171@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261126T153000
+DTEND;TZID=Asia/Seoul:20261126T163000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:7교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-172@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261126T163000
+DTEND;TZID=Asia/Seoul:20261126T173000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:8교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-173@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261127T093000
+DTEND;TZID=Asia/Seoul:20261127T103000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:1교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-174@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261127T103000
+DTEND;TZID=Asia/Seoul:20261127T113000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:2교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-175@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261127T113000
+DTEND;TZID=Asia/Seoul:20261127T123000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:3교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-176@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261127T133000
+DTEND;TZID=Asia/Seoul:20261127T143000
+SUMMARY:[A반] 비행 시뮬레이터 실습
+LOCATION:306호
+DESCRIPTION:5교시 / 강사: 송용우\n비행원리 및 조종원리 
+ 이해\nhttps://asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-177@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261127T143000
+DTEND;TZID=Asia/Seoul:20261127T153000
+SUMMARY:[A반] 비행 시뮬레이터 실습
+LOCATION:306호
+DESCRIPTION:6교시 / 강사: 송용우\n비행원리 및 조종원리 
+ 이해\nhttps://asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-178@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261127T153000
+DTEND;TZID=Asia/Seoul:20261127T163000
+SUMMARY:[A반] 비행 시뮬레이터 실습
+LOCATION:306호
+DESCRIPTION:7교시 / 강사: 송용우\n비행원리 및 조종원리 
+ 이해\nhttps://asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-179@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261127T163000
+DTEND;TZID=Asia/Seoul:20261127T173000
+SUMMARY:[A반] 중간평가 (이론)
+LOCATION:403호
+DESCRIPTION:8교시 / 강사: 권혁준\n평 가\nhttps://asea-college.gi
+ thub.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-180@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261130T093000
+DTEND;TZID=Asia/Seoul:20261130T103000
+SUMMARY:[A반] 커넥터\, 터미널 작업하기 실습
+LOCATION:308호
+DESCRIPTION:1교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-181@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261130T103000
+DTEND;TZID=Asia/Seoul:20261130T113000
+SUMMARY:[A반] 커넥터\, 터미널 작업하기 실습
+LOCATION:308호
+DESCRIPTION:2교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-182@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261130T113000
+DTEND;TZID=Asia/Seoul:20261130T123000
+SUMMARY:[A반] 커넥터\, 터미널 작업하기 실습
+LOCATION:308호
+DESCRIPTION:3교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-183@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261130T133000
+DTEND;TZID=Asia/Seoul:20261130T143000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:5교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-184@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261130T143000
+DTEND;TZID=Asia/Seoul:20261130T153000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:6교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-185@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261130T153000
+DTEND;TZID=Asia/Seoul:20261130T163000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:7교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-186@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261130T163000
+DTEND;TZID=Asia/Seoul:20261130T173000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:8교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-187@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261201T093000
+DTEND;TZID=Asia/Seoul:20261201T103000
+SUMMARY:[A반] 항공기술영어 (용어)
+LOCATION:403호
+DESCRIPTION:1교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-188@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261201T103000
+DTEND;TZID=Asia/Seoul:20261201T113000
+SUMMARY:[A반] 항공기술영어 (용어)
+LOCATION:403호
+DESCRIPTION:2교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-189@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261201T113000
+DTEND;TZID=Asia/Seoul:20261201T123000
+SUMMARY:[A반] 항공기술영어 (용어)
+LOCATION:403호
+DESCRIPTION:3교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-190@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261201T133000
+DTEND;TZID=Asia/Seoul:20261201T143000
+SUMMARY:[A반] 커넥터\, 터미널 작업하기 실습
+LOCATION:308호
+DESCRIPTION:5교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-191@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261201T143000
+DTEND;TZID=Asia/Seoul:20261201T153000
+SUMMARY:[A반] 커넥터\, 터미널 작업하기 실습
+LOCATION:308호
+DESCRIPTION:6교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-192@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261201T153000
+DTEND;TZID=Asia/Seoul:20261201T163000
+SUMMARY:[A반] 커넥터\, 터미널 작업하기 실습
+LOCATION:308호
+DESCRIPTION:7교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-193@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261201T163000
+DTEND;TZID=Asia/Seoul:20261201T173000
+SUMMARY:[A반] 커넥터\, 터미널 작업하기 실습
+LOCATION:308호
+DESCRIPTION:8교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-194@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261202T093000
+DTEND;TZID=Asia/Seoul:20261202T103000
+SUMMARY:[A반] KAI 신입직원 준비
+LOCATION:306호
+DESCRIPTION:1교시 / 강사: 박신영\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-195@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261202T103000
+DTEND;TZID=Asia/Seoul:20261202T113000
+SUMMARY:[A반] KAI 신입직원 준비
+LOCATION:306호
+DESCRIPTION:2교시 / 강사: 박신영\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-196@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261202T113000
+DTEND;TZID=Asia/Seoul:20261202T123000
+SUMMARY:[A반] KAI 신입직원 준비
+LOCATION:306호
+DESCRIPTION:3교시 / 강사: 박신영\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-197@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261202T133000
+DTEND;TZID=Asia/Seoul:20261202T143000
+SUMMARY:[A반] KAI 신입직원 준비
+LOCATION:306호
+DESCRIPTION:5교시 / 강사: 박신영\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-198@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261202T143000
+DTEND;TZID=Asia/Seoul:20261202T153000
+SUMMARY:[A반] AI 이미지 생성의 세계
+LOCATION:306호
+DESCRIPTION:6교시 / 강사: 방대원\nAI 기본교육\nhttps://asea-co
+ llege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-199@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261202T153000
+DTEND;TZID=Asia/Seoul:20261202T163000
+SUMMARY:[A반] AI 이미지 생성의 세계
+LOCATION:306호
+DESCRIPTION:7교시 / 강사: 방대원\nAI 기본교육\nhttps://asea-co
+ llege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-200@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261202T163000
+DTEND;TZID=Asia/Seoul:20261202T173000
+SUMMARY:[A반] AI 이미지 생성의 세계
+LOCATION:306호
+DESCRIPTION:8교시 / 강사: 방대원\nAI 기본교육\nhttps://asea-co
+ llege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-201@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261203T093000
+DTEND;TZID=Asia/Seoul:20261203T103000
+SUMMARY:[A반] 각 조별 KF-21 모형제작
+LOCATION:403호
+DESCRIPTION:1교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-202@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261203T103000
+DTEND;TZID=Asia/Seoul:20261203T113000
+SUMMARY:[A반] 각 조별 KF-21 모형제작
+LOCATION:403호
+DESCRIPTION:2교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-203@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261203T113000
+DTEND;TZID=Asia/Seoul:20261203T123000
+SUMMARY:[A반] 각 조별 KF-21 모형제작
+LOCATION:403호
+DESCRIPTION:3교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-204@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261203T133000
+DTEND;TZID=Asia/Seoul:20261203T143000
+SUMMARY:[A반] 각 조별 KF-21 모형제작
+LOCATION:403호
+DESCRIPTION:5교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-205@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261203T143000
+DTEND;TZID=Asia/Seoul:20261203T153000
+SUMMARY:[A반] 각 조별 KF-21 모형제작
+LOCATION:403호
+DESCRIPTION:6교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-206@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261203T153000
+DTEND;TZID=Asia/Seoul:20261203T163000
+SUMMARY:[A반] 각 조별 KF-21 모형제작
+LOCATION:403호
+DESCRIPTION:7교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-207@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261203T163000
+DTEND;TZID=Asia/Seoul:20261203T173000
+SUMMARY:[A반] 각 조별 KF-21 모형제작
+LOCATION:403호
+DESCRIPTION:8교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-208@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261204T093000
+DTEND;TZID=Asia/Seoul:20261204T103000
+SUMMARY:[A반] 항공기술영어 (용어)
+LOCATION:403호
+DESCRIPTION:1교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-209@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261204T103000
+DTEND;TZID=Asia/Seoul:20261204T113000
+SUMMARY:[A반] 항공기술영어 (용어)
+LOCATION:403호
+DESCRIPTION:2교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-210@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261204T113000
+DTEND;TZID=Asia/Seoul:20261204T123000
+SUMMARY:[A반] 항공기술영어 (용어)
+LOCATION:403호
+DESCRIPTION:3교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-211@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261204T133000
+DTEND;TZID=Asia/Seoul:20261204T143000
+SUMMARY:[A반] 커넥터\, 터미널\, 스플라이스 평가
+LOCATION:308호
+DESCRIPTION:5교시 / 강사: 황인수\n평 가\nhttps://asea-college.gi
+ thub.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-212@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261204T143000
+DTEND;TZID=Asia/Seoul:20261204T153000
+SUMMARY:[A반] 커넥터\, 터미널\, 스플라이스 평가
+LOCATION:308호
+DESCRIPTION:6교시 / 강사: 황인수\n평 가\nhttps://asea-college.gi
+ thub.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-213@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261204T153000
+DTEND;TZID=Asia/Seoul:20261204T163000
+SUMMARY:[A반] LRU 장탈∙착 실습
+LOCATION:308호
+DESCRIPTION:7교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-214@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261204T163000
+DTEND;TZID=Asia/Seoul:20261204T173000
+SUMMARY:[A반] LRU 장탈∙착 실습
+LOCATION:308호
+DESCRIPTION:8교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-215@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261207T093000
+DTEND;TZID=Asia/Seoul:20261207T103000
+SUMMARY:[A반] LRU 장탈∙착 실습
+LOCATION:308호
+DESCRIPTION:1교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-216@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261207T103000
+DTEND;TZID=Asia/Seoul:20261207T113000
+SUMMARY:[A반] LRU 장탈∙착 실습
+LOCATION:308호
+DESCRIPTION:2교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-217@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261207T113000
+DTEND;TZID=Asia/Seoul:20261207T123000
+SUMMARY:[A반] LRU 장탈∙착 실습
+LOCATION:308호
+DESCRIPTION:3교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-218@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261207T133000
+DTEND;TZID=Asia/Seoul:20261207T143000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:202호
+DESCRIPTION:5교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-219@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261207T143000
+DTEND;TZID=Asia/Seoul:20261207T153000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:202호
+DESCRIPTION:6교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-220@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261207T153000
+DTEND;TZID=Asia/Seoul:20261207T163000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:202호
+DESCRIPTION:7교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-221@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261207T163000
+DTEND;TZID=Asia/Seoul:20261207T173000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:202호
+DESCRIPTION:8교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-222@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261208T093000
+DTEND;TZID=Asia/Seoul:20261208T103000
+SUMMARY:[A반] 각 조별 KF-21 모형제작
+LOCATION:403호
+DESCRIPTION:1교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-223@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261208T103000
+DTEND;TZID=Asia/Seoul:20261208T113000
+SUMMARY:[A반] 각 조별 KF-21 모형제작
+LOCATION:403호
+DESCRIPTION:2교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-224@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261208T113000
+DTEND;TZID=Asia/Seoul:20261208T123000
+SUMMARY:[A반] 각 조별 KF-21 모형제작
+LOCATION:403호
+DESCRIPTION:3교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-225@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261208T133000
+DTEND;TZID=Asia/Seoul:20261208T143000
+SUMMARY:[A반] 각 조별 KF-21 모형제작
+LOCATION:403호
+DESCRIPTION:5교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-226@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261208T143000
+DTEND;TZID=Asia/Seoul:20261208T153000
+SUMMARY:[A반] 각 조별 KF-21 모형제작
+LOCATION:403호
+DESCRIPTION:6교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-227@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261208T153000
+DTEND;TZID=Asia/Seoul:20261208T163000
+SUMMARY:[A반] 각 조별 KF-21 모형제작
+LOCATION:403호
+DESCRIPTION:7교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-228@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261208T163000
+DTEND;TZID=Asia/Seoul:20261208T173000
+SUMMARY:[A반] 각 조별 KF-21 모형제작
+LOCATION:403호
+DESCRIPTION:8교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-229@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261209T093000
+DTEND;TZID=Asia/Seoul:20261209T103000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:202호
+DESCRIPTION:1교시 / 강사: 김현수\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-230@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261209T103000
+DTEND;TZID=Asia/Seoul:20261209T113000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:202호
+DESCRIPTION:2교시 / 강사: 김현수\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-231@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261209T113000
+DTEND;TZID=Asia/Seoul:20261209T123000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:202호
+DESCRIPTION:3교시 / 강사: 김현수\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-232@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261209T133000
+DTEND;TZID=Asia/Seoul:20261209T143000
+SUMMARY:[A반] LRU 장탈∙착 실습
+LOCATION:308호
+DESCRIPTION:5교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-233@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261209T143000
+DTEND;TZID=Asia/Seoul:20261209T153000
+SUMMARY:[A반] LRU 장탈∙착 실습
+LOCATION:308호
+DESCRIPTION:6교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-234@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261209T153000
+DTEND;TZID=Asia/Seoul:20261209T163000
+SUMMARY:[A반] LRU 장탈∙착 평가
+LOCATION:308호
+DESCRIPTION:7교시 / 강사: 황인수\n평 가\nhttps://asea-college.gi
+ thub.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-235@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261209T163000
+DTEND;TZID=Asia/Seoul:20261209T173000
+SUMMARY:[A반] LRU 장탈∙착 평가
+LOCATION:308호
+DESCRIPTION:8교시 / 강사: 황인수\n평 가\nhttps://asea-college.gi
+ thub.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-236@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261210T093000
+DTEND;TZID=Asia/Seoul:20261210T103000
+SUMMARY:[A반] 수락시험하기\, 초도품 검사 준비하기\, ESD 
+ 교육
+LOCATION:403호
+DESCRIPTION:1교시 / 강사: 심우제\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-237@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261210T103000
+DTEND;TZID=Asia/Seoul:20261210T113000
+SUMMARY:[A반] 수락시험하기\, 초도품 검사 준비하기\, ESD 
+ 교육
+LOCATION:403호
+DESCRIPTION:2교시 / 강사: 심우제\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-238@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261210T113000
+DTEND;TZID=Asia/Seoul:20261210T123000
+SUMMARY:[A반] 수락시험하기\, 초도품 검사 준비하기\, ESD 
+ 교육
+LOCATION:403호
+DESCRIPTION:3교시 / 강사: 심우제\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-239@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261210T133000
+DTEND;TZID=Asia/Seoul:20261210T143000
+SUMMARY:[A반] 복합재 성형\, 가공
+LOCATION:403호
+DESCRIPTION:5교시 / 강사: 김형래\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-240@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261210T143000
+DTEND;TZID=Asia/Seoul:20261210T153000
+SUMMARY:[A반] 복합재 성형\, 가공
+LOCATION:403호
+DESCRIPTION:6교시 / 강사: 김형래\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-241@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261210T153000
+DTEND;TZID=Asia/Seoul:20261210T163000
+SUMMARY:[A반] 복합재 성형\, 가공
+LOCATION:403호
+DESCRIPTION:7교시 / 강사: 김형래\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-242@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261210T163000
+DTEND;TZID=Asia/Seoul:20261210T173000
+SUMMARY:[A반] 복합재 성형\, 가공
+LOCATION:403호
+DESCRIPTION:8교시 / 강사: 김형래\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-243@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261211T093000
+DTEND;TZID=Asia/Seoul:20261211T103000
+SUMMARY:[A반] 각 조별 KF-21 모형제작
+LOCATION:403호
+DESCRIPTION:1교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-244@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261211T103000
+DTEND;TZID=Asia/Seoul:20261211T113000
+SUMMARY:[A반] 각 조별 KF-21 모형제작
+LOCATION:403호
+DESCRIPTION:2교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-245@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261211T113000
+DTEND;TZID=Asia/Seoul:20261211T123000
+SUMMARY:[A반] 각 조별 KF-21 모형제작
+LOCATION:403호
+DESCRIPTION:3교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-246@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261211T133000
+DTEND;TZID=Asia/Seoul:20261211T143000
+SUMMARY:[A반] 각 조별 KF-21 모형제작
+LOCATION:403호
+DESCRIPTION:5교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-247@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261211T143000
+DTEND;TZID=Asia/Seoul:20261211T153000
+SUMMARY:[A반] 각 조별 KF-21 모형제작
+LOCATION:403호
+DESCRIPTION:6교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-248@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261211T153000
+DTEND;TZID=Asia/Seoul:20261211T163000
+SUMMARY:[A반] 각 조별 KF-21 모형제작
+LOCATION:403호
+DESCRIPTION:7교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-249@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261211T163000
+DTEND;TZID=Asia/Seoul:20261211T173000
+SUMMARY:[A반] 각 조별 KF-21 모형제작
+LOCATION:403호
+DESCRIPTION:8교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-250@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261214T093000
+DTEND;TZID=Asia/Seoul:20261214T103000
+SUMMARY:[A반] 현업실무자 특강
+LOCATION:309호
+DESCRIPTION:1교시 / 강사: KAI\n현업실무자 특강\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-251@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261214T103000
+DTEND;TZID=Asia/Seoul:20261214T113000
+SUMMARY:[A반] 현업실무자 특강
+LOCATION:309호
+DESCRIPTION:2교시 / 강사: KAI\n현업실무자 특강\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-252@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261214T113000
+DTEND;TZID=Asia/Seoul:20261214T123000
+SUMMARY:[A반] 현업실무자 특강
+LOCATION:309호
+DESCRIPTION:3교시 / 강사: KAI\n현업실무자 특강\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-253@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261214T133000
+DTEND;TZID=Asia/Seoul:20261214T143000
+SUMMARY:[A반] 현업실무자 특강
+LOCATION:309호
+DESCRIPTION:5교시 / 강사: KAI\n현업실무자 특강\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-254@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261214T143000
+DTEND;TZID=Asia/Seoul:20261214T153000
+SUMMARY:[A반] 현업실무자 특강
+LOCATION:309호
+DESCRIPTION:6교시 / 강사: KAI\n현업실무자 특강\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-255@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261214T153000
+DTEND;TZID=Asia/Seoul:20261214T163000
+SUMMARY:[A반] 현업실무자 특강
+LOCATION:309호
+DESCRIPTION:7교시 / 강사: KAI\n현업실무자 특강\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-256@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261214T163000
+DTEND;TZID=Asia/Seoul:20261214T173000
+SUMMARY:[A반] 현업실무자 특강
+LOCATION:309호
+DESCRIPTION:8교시 / 강사: KAI\n현업실무자 특강\nhttps://asea-c
+ ollege.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-257@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261215T093000
+DTEND;TZID=Asia/Seoul:20261215T103000
+SUMMARY:[A반] KAI 현장 견학
+LOCATION:
+DESCRIPTION:1교시 / 강사: 권혁준\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-258@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261215T103000
+DTEND;TZID=Asia/Seoul:20261215T113000
+SUMMARY:[A반] KAI 현장 견학
+LOCATION:
+DESCRIPTION:2교시 / 강사: 권혁준\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-259@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261215T113000
+DTEND;TZID=Asia/Seoul:20261215T123000
+SUMMARY:[A반] KAI 현장 견학
+LOCATION:
+DESCRIPTION:3교시 / 강사: 권혁준\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-260@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261215T133000
+DTEND;TZID=Asia/Seoul:20261215T143000
+SUMMARY:[A반] KAI 현장 견학
+LOCATION:
+DESCRIPTION:5교시 / 강사: 권혁준\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-261@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261215T143000
+DTEND;TZID=Asia/Seoul:20261215T153000
+SUMMARY:[A반] KAI 현장 견학
+LOCATION:
+DESCRIPTION:6교시 / 강사: 권혁준\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-262@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261215T153000
+DTEND;TZID=Asia/Seoul:20261215T163000
+SUMMARY:[A반] KAI 현장 견학
+LOCATION:
+DESCRIPTION:7교시 / 강사: 권혁준\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-263@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261215T163000
+DTEND;TZID=Asia/Seoul:20261215T173000
+SUMMARY:[A반] KAI 현장 견학
+LOCATION:
+DESCRIPTION:8교시 / 강사: 권혁준\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-264@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261216T093000
+DTEND;TZID=Asia/Seoul:20261216T103000
+SUMMARY:[A반] KAI 현장 견학
+LOCATION:
+DESCRIPTION:1교시 / 강사: 권혁준\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-265@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261216T103000
+DTEND;TZID=Asia/Seoul:20261216T113000
+SUMMARY:[A반] KAI 현장 견학
+LOCATION:
+DESCRIPTION:2교시 / 강사: 권혁준\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-266@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261216T113000
+DTEND;TZID=Asia/Seoul:20261216T123000
+SUMMARY:[A반] KAI 현장 견학
+LOCATION:
+DESCRIPTION:3교시 / 강사: 권혁준\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-267@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261216T133000
+DTEND;TZID=Asia/Seoul:20261216T143000
+SUMMARY:[A반] KAI 현장 견학
+LOCATION:
+DESCRIPTION:5교시 / 강사: 권혁준\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-268@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261216T143000
+DTEND;TZID=Asia/Seoul:20261216T153000
+SUMMARY:[A반] KAI 현장 견학
+LOCATION:
+DESCRIPTION:6교시 / 강사: 권혁준\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-269@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261216T153000
+DTEND;TZID=Asia/Seoul:20261216T163000
+SUMMARY:[A반] KAI 현장 견학
+LOCATION:
+DESCRIPTION:7교시 / 강사: 권혁준\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-270@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261216T163000
+DTEND;TZID=Asia/Seoul:20261216T173000
+SUMMARY:[A반] KAI 현장 견학
+LOCATION:
+DESCRIPTION:8교시 / 강사: 권혁준\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-271@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261217T093000
+DTEND;TZID=Asia/Seoul:20261217T103000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:1교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-272@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261217T103000
+DTEND;TZID=Asia/Seoul:20261217T113000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:2교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-273@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261217T113000
+DTEND;TZID=Asia/Seoul:20261217T123000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업
+LOCATION:204호
+DESCRIPTION:3교시 / 강사: 장성희\n평 가\nhttps://asea-college.gi
+ thub.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-274@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261217T133000
+DTEND;TZID=Asia/Seoul:20261217T143000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업
+LOCATION:204호
+DESCRIPTION:5교시 / 강사: 장성희\n평 가\nhttps://asea-college.gi
+ thub.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-275@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261217T143000
+DTEND;TZID=Asia/Seoul:20261217T153000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업
+LOCATION:204호
+DESCRIPTION:6교시 / 강사: 장성희\n평 가\nhttps://asea-college.gi
+ thub.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-276@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261217T153000
+DTEND;TZID=Asia/Seoul:20261217T163000
+SUMMARY:[A반] 최종평가 (이론)
+LOCATION:403호
+DESCRIPTION:7교시 / 강사: 권혁준\n평 가\nhttps://asea-college.gi
+ thub.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-277@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261217T163000
+DTEND;TZID=Asia/Seoul:20261217T173000
+SUMMARY:[A반] 간담회\, 설문조사
+LOCATION:403호
+DESCRIPTION:8교시 / 강사: 권혁준\n재량교과\nhttps://asea-colle
+ ge.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-278@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261218T093000
+DTEND;TZID=Asia/Seoul:20261218T103000
+SUMMARY:[A반] 수락시험하기\, 초도품 검사 준비하기\, ESD 
+ 교육
+LOCATION:403호
+DESCRIPTION:1교시 / 강사: 심우제\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-279@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261218T103000
+DTEND;TZID=Asia/Seoul:20261218T113000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업
+LOCATION:204호
+DESCRIPTION:2교시 / 강사: 장성희\n평 가\nhttps://asea-college.gi
+ thub.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-280@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261218T113000
+DTEND;TZID=Asia/Seoul:20261218T123000
+SUMMARY:[A반] 항공기 기체 부품 판금 작업
+LOCATION:204호
+DESCRIPTION:3교시 / 강사: 장성희\n평 가\nhttps://asea-college.gi
+ thub.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-281@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261218T133000
+DTEND;TZID=Asia/Seoul:20261218T143000
+SUMMARY:[A반] 프로젝트 실습 결과 발표
+LOCATION:309호
+DESCRIPTION:5교시 / 강사: 송용우\n종합직무역량\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-282@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261218T143000
+DTEND;TZID=Asia/Seoul:20261218T153000
+SUMMARY:[A반] 프로젝트 실습 결과 발표
+LOCATION:309호
+DESCRIPTION:6교시 / 강사: 송용우\n종합직무역량\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-283@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261218T153000
+DTEND;TZID=Asia/Seoul:20261218T163000
+SUMMARY:[A반] 프로젝트 실습 결과 발표
+LOCATION:309호
+DESCRIPTION:7교시 / 강사: 송용우\n종합직무역량\nhttps://asea
+ -college.github.io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:a-284@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261218T163000
+DTEND;TZID=Asia/Seoul:20261218T173000
+SUMMARY:[A반] 수료식
+LOCATION:309호
+DESCRIPTION:8교시 / 강사: \n재량교과\nhttps://asea-college.github
+ .io/course/2026-kai/a.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-5@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261026T093000
+DTEND;TZID=Asia/Seoul:20261026T103000
+SUMMARY:[B반] 입학식
+LOCATION:309호
+DESCRIPTION:1교시 / 강사: \n재량교과\nhttps://asea-college.github
+ .io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-6@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261026T103000
+DTEND;TZID=Asia/Seoul:20261026T113000
+SUMMARY:[B반] 오리엔테이션
+LOCATION:409호
+DESCRIPTION:2교시 / 강사: 심우제\n재량교과\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-7@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261026T113000
+DTEND;TZID=Asia/Seoul:20261026T123000
+SUMMARY:[B반] 오리엔테이션
+LOCATION:409호
+DESCRIPTION:3교시 / 강사: 심우제\n재량교과\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-8@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261026T133000
+DTEND;TZID=Asia/Seoul:20261026T143000
+SUMMARY:[B반] 사전평가 (이론)
+LOCATION:409호
+DESCRIPTION:5교시 / 강사: 심우제\n평 가\nhttps://asea-college.gi
+ thub.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-9@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261026T143000
+DTEND;TZID=Asia/Seoul:20261026T153000
+SUMMARY:[B반] 항공우주산업 및 KAI 이해
+LOCATION:409호
+DESCRIPTION:6교시 / 강사: 권오건\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-10@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261026T153000
+DTEND;TZID=Asia/Seoul:20261026T163000
+SUMMARY:[B반] 항공우주산업 및 KAI 이해
+LOCATION:409호
+DESCRIPTION:7교시 / 강사: 권오건\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-11@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261026T163000
+DTEND;TZID=Asia/Seoul:20261026T173000
+SUMMARY:[B반] 항공우주산업 및 KAI 이해
+LOCATION:409호
+DESCRIPTION:8교시 / 강사: 권오건\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-12@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261027T093000
+DTEND;TZID=Asia/Seoul:20261027T103000
+SUMMARY:[B반] 보안의식
+LOCATION:409호
+DESCRIPTION:1교시 / 강사: 함우형\n직장생활\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-13@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261027T103000
+DTEND;TZID=Asia/Seoul:20261027T113000
+SUMMARY:[B반] 보안의식
+LOCATION:409호
+DESCRIPTION:2교시 / 강사: 함우형\n직장생활\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-14@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261027T113000
+DTEND;TZID=Asia/Seoul:20261027T123000
+SUMMARY:[B반] 보안의식
+LOCATION:409호
+DESCRIPTION:3교시 / 강사: 함우형\n직장생활\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-15@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261027T133000
+DTEND;TZID=Asia/Seoul:20261027T143000
+SUMMARY:[B반] 항공 안전(안전\, 품질)
+LOCATION:409호
+DESCRIPTION:5교시 / 강사: 박성태\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-16@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261027T143000
+DTEND;TZID=Asia/Seoul:20261027T153000
+SUMMARY:[B반] 항공 안전(안전\, 품질)
+LOCATION:409호
+DESCRIPTION:6교시 / 강사: 박성태\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-17@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261027T153000
+DTEND;TZID=Asia/Seoul:20261027T163000
+SUMMARY:[B반] 항공 안전(안전\, 품질)
+LOCATION:409호
+DESCRIPTION:7교시 / 강사: 박성태\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-18@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261027T163000
+DTEND;TZID=Asia/Seoul:20261027T173000
+SUMMARY:[B반] 학습일지작성
+LOCATION:409호
+DESCRIPTION:8교시 / 강사: 권혁준\n직장생활\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-19@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261028T093000
+DTEND;TZID=Asia/Seoul:20261028T103000
+SUMMARY:[B반] 직업윤리\, 조직문화 및 의사소통
+LOCATION:409호
+DESCRIPTION:1교시 / 강사: 박신영\n직장생활\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-20@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261028T103000
+DTEND;TZID=Asia/Seoul:20261028T113000
+SUMMARY:[B반] 직업윤리\, 조직문화 및 의사소통
+LOCATION:409호
+DESCRIPTION:2교시 / 강사: 박신영\n직장생활\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-21@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261028T113000
+DTEND;TZID=Asia/Seoul:20261028T123000
+SUMMARY:[B반] 직업윤리\, 조직문화 및 의사소통
+LOCATION:409호
+DESCRIPTION:3교시 / 강사: 박신영\n직장생활\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-22@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261028T133000
+DTEND;TZID=Asia/Seoul:20261028T143000
+SUMMARY:[B반] 도면 이해\, 기하공차
+LOCATION:409호
+DESCRIPTION:5교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-23@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261028T143000
+DTEND;TZID=Asia/Seoul:20261028T153000
+SUMMARY:[B반] 도면 이해\, 기하공차
+LOCATION:409호
+DESCRIPTION:6교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-24@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261028T153000
+DTEND;TZID=Asia/Seoul:20261028T163000
+SUMMARY:[B반] 도면 이해\, 기하공차
+LOCATION:409호
+DESCRIPTION:7교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-25@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261028T163000
+DTEND;TZID=Asia/Seoul:20261028T173000
+SUMMARY:[B반] 도면 이해\, 기하공차
+LOCATION:409호
+DESCRIPTION:8교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-26@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261029T093000
+DTEND;TZID=Asia/Seoul:20261029T103000
+SUMMARY:[B반] 비행 시뮬레이터 실습
+LOCATION:306호
+DESCRIPTION:1교시 / 강사: 송용우\n비행원리 및 조종원리 
+ 이해\nhttps://asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-27@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261029T103000
+DTEND;TZID=Asia/Seoul:20261029T113000
+SUMMARY:[B반] 비행 시뮬레이터 실습
+LOCATION:306호
+DESCRIPTION:2교시 / 강사: 송용우\n비행원리 및 조종원리 
+ 이해\nhttps://asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-28@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261029T113000
+DTEND;TZID=Asia/Seoul:20261029T123000
+SUMMARY:[B반] 비행 시뮬레이터 실습
+LOCATION:306호
+DESCRIPTION:3교시 / 강사: 송용우\n비행원리 및 조종원리 
+ 이해\nhttps://asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-29@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261029T133000
+DTEND;TZID=Asia/Seoul:20261029T143000
+SUMMARY:[B반] 항공기 안전(FOD\, 작업 후 확인\, 공구 및 부
+ 품 관리)
+LOCATION:409호
+DESCRIPTION:5교시 / 강사: 박성태\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-30@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261029T143000
+DTEND;TZID=Asia/Seoul:20261029T153000
+SUMMARY:[B반] 항공기 안전(FOD\, 작업 후 확인\, 공구 및 부
+ 품 관리)
+LOCATION:409호
+DESCRIPTION:6교시 / 강사: 박성태\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-31@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261029T153000
+DTEND;TZID=Asia/Seoul:20261029T163000
+SUMMARY:[B반] 항공기 안전(FOD\, 작업 후 확인\, 공구 및 부
+ 품 관리)
+LOCATION:409호
+DESCRIPTION:7교시 / 강사: 박성태\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-32@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261029T163000
+DTEND;TZID=Asia/Seoul:20261029T173000
+SUMMARY:[B반] 항공기 안전(FOD\, 작업 후 확인\, 공구 및 부
+ 품 관리)
+LOCATION:409호
+DESCRIPTION:8교시 / 강사: 박성태\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-33@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261030T093000
+DTEND;TZID=Asia/Seoul:20261030T103000
+SUMMARY:[B반] 항공기기체 부품 기계가공\, 조립
+LOCATION:409호
+DESCRIPTION:1교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-34@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261030T103000
+DTEND;TZID=Asia/Seoul:20261030T113000
+SUMMARY:[B반] 항공기기체 부품 기계가공\, 조립
+LOCATION:409호
+DESCRIPTION:2교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-35@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261030T113000
+DTEND;TZID=Asia/Seoul:20261030T123000
+SUMMARY:[B반] 항공기기체 부품 기계가공\, 조립
+LOCATION:409호
+DESCRIPTION:3교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-36@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261030T133000
+DTEND;TZID=Asia/Seoul:20261030T143000
+SUMMARY:[B반] 항공기 기체 구조의 이해
+LOCATION:409호
+DESCRIPTION:5교시 / 강사: 권오건\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-37@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261030T143000
+DTEND;TZID=Asia/Seoul:20261030T153000
+SUMMARY:[B반] 항공기 기체 구조의 이해
+LOCATION:409호
+DESCRIPTION:6교시 / 강사: 권오건\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-38@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261030T153000
+DTEND;TZID=Asia/Seoul:20261030T163000
+SUMMARY:[B반] 항공기 기체 구조의 이해
+LOCATION:409호
+DESCRIPTION:7교시 / 강사: 권오건\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-39@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261030T163000
+DTEND;TZID=Asia/Seoul:20261030T173000
+SUMMARY:[B반] 항공기 기체 구조의 이해
+LOCATION:409호
+DESCRIPTION:8교시 / 강사: 권오건\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-40@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261102T093000
+DTEND;TZID=Asia/Seoul:20261102T103000
+SUMMARY:[B반] 항공기술영어 (용어)
+LOCATION:409호
+DESCRIPTION:1교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-41@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261102T103000
+DTEND;TZID=Asia/Seoul:20261102T113000
+SUMMARY:[B반] 항공기술영어 (용어)
+LOCATION:409호
+DESCRIPTION:2교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-42@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261102T113000
+DTEND;TZID=Asia/Seoul:20261102T123000
+SUMMARY:[B반] 항공기술영어 (용어)
+LOCATION:409호
+DESCRIPTION:3교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-43@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261102T133000
+DTEND;TZID=Asia/Seoul:20261102T143000
+SUMMARY:[B반] 항공기 기체 구조\, 엔진\, 시스템의 이해
+LOCATION:409호
+DESCRIPTION:5교시 / 강사: 권오건\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-44@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261102T143000
+DTEND;TZID=Asia/Seoul:20261102T153000
+SUMMARY:[B반] 항공기 기체 구조\, 엔진\, 시스템의 이해
+LOCATION:409호
+DESCRIPTION:6교시 / 강사: 권오건\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-45@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261102T153000
+DTEND;TZID=Asia/Seoul:20261102T163000
+SUMMARY:[B반] 항공기 기체 구조\, 엔진\, 시스템의 이해
+LOCATION:409호
+DESCRIPTION:7교시 / 강사: 권오건\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-46@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261102T163000
+DTEND;TZID=Asia/Seoul:20261102T173000
+SUMMARY:[B반] 항공기 기체 구조\, 엔진\, 시스템의 이해
+LOCATION:409호
+DESCRIPTION:8교시 / 강사: 권오건\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-47@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261103T093000
+DTEND;TZID=Asia/Seoul:20261103T103000
+SUMMARY:[B반] 인턴·정식사원·인생 성장계획
+LOCATION:409호
+DESCRIPTION:1교시 / 강사: 김형래\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-48@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261103T103000
+DTEND;TZID=Asia/Seoul:20261103T113000
+SUMMARY:[B반] 인턴·정식사원·인생 성장계획
+LOCATION:409호
+DESCRIPTION:2교시 / 강사: 김형래\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-49@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261103T113000
+DTEND;TZID=Asia/Seoul:20261103T123000
+SUMMARY:[B반] 인턴·정식사원·인생 성장계획
+LOCATION:409호
+DESCRIPTION:3교시 / 강사: 김형래\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-50@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261103T133000
+DTEND;TZID=Asia/Seoul:20261103T143000
+SUMMARY:[B반] 일반 취업준비
+LOCATION:306호
+DESCRIPTION:5교시 / 강사: 박신영\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-51@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261103T143000
+DTEND;TZID=Asia/Seoul:20261103T153000
+SUMMARY:[B반] 일반 취업준비
+LOCATION:306호
+DESCRIPTION:6교시 / 강사: 박신영\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-52@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261103T153000
+DTEND;TZID=Asia/Seoul:20261103T163000
+SUMMARY:[B반] 일반 취업준비
+LOCATION:306호
+DESCRIPTION:7교시 / 강사: 박신영\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-53@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261103T163000
+DTEND;TZID=Asia/Seoul:20261103T173000
+SUMMARY:[B반] 일반 취업준비
+LOCATION:306호
+DESCRIPTION:8교시 / 강사: 박신영\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-54@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261104T093000
+DTEND;TZID=Asia/Seoul:20261104T103000
+SUMMARY:[B반] 항공기술영어 (용어)
+LOCATION:409호
+DESCRIPTION:1교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-55@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261104T103000
+DTEND;TZID=Asia/Seoul:20261104T113000
+SUMMARY:[B반] 항공기술영어 (용어)
+LOCATION:409호
+DESCRIPTION:2교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-56@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261104T113000
+DTEND;TZID=Asia/Seoul:20261104T123000
+SUMMARY:[B반] 항공기술영어 (용어)
+LOCATION:409호
+DESCRIPTION:3교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-57@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261104T133000
+DTEND;TZID=Asia/Seoul:20261104T143000
+SUMMARY:[B반] 항공기기체 부품 화학처리
+LOCATION:409호
+DESCRIPTION:5교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-58@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261104T143000
+DTEND;TZID=Asia/Seoul:20261104T153000
+SUMMARY:[B반] 항공기기체 부품 화학처리
+LOCATION:409호
+DESCRIPTION:6교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-59@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261104T153000
+DTEND;TZID=Asia/Seoul:20261104T163000
+SUMMARY:[B반] 항공기기체 부품 화학처리
+LOCATION:409호
+DESCRIPTION:7교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-60@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261104T163000
+DTEND;TZID=Asia/Seoul:20261104T173000
+SUMMARY:[B반] 항공기기체 부품 화학처리
+LOCATION:409호
+DESCRIPTION:8교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-61@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261105T093000
+DTEND;TZID=Asia/Seoul:20261105T103000
+SUMMARY:[B반] 산업안전(5S\, 위험예지)
+LOCATION:409호
+DESCRIPTION:1교시 / 강사: 박성태\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-62@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261105T103000
+DTEND;TZID=Asia/Seoul:20261105T113000
+SUMMARY:[B반] 산업안전(5S\, 위험예지)
+LOCATION:409호
+DESCRIPTION:2교시 / 강사: 박성태\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-63@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261105T113000
+DTEND;TZID=Asia/Seoul:20261105T123000
+SUMMARY:[B반] 산업안전(5S\, 위험예지)
+LOCATION:409호
+DESCRIPTION:3교시 / 강사: 박성태\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-64@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261105T133000
+DTEND;TZID=Asia/Seoul:20261105T143000
+SUMMARY:[B반] 산업안전(5S\, 위험예지)
+LOCATION:409호
+DESCRIPTION:5교시 / 강사: 박성태\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-65@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261105T143000
+DTEND;TZID=Asia/Seoul:20261105T153000
+SUMMARY:[B반] 항공기 기체 구조\, 엔진\, 시스템의 이해
+LOCATION:409호
+DESCRIPTION:6교시 / 강사: 권오건\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-66@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261105T153000
+DTEND;TZID=Asia/Seoul:20261105T163000
+SUMMARY:[B반] 항공기 기체 구조\, 엔진\, 시스템의 이해
+LOCATION:409호
+DESCRIPTION:7교시 / 강사: 권오건\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-67@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261105T163000
+DTEND;TZID=Asia/Seoul:20261105T173000
+SUMMARY:[B반] 항공기 기체 구조\, 엔진\, 시스템의 이해
+LOCATION:409호
+DESCRIPTION:8교시 / 강사: 권오건\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-68@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261106T093000
+DTEND;TZID=Asia/Seoul:20261106T103000
+SUMMARY:[B반] 항공기기체 부품 열처리\, 검사
+LOCATION:409호
+DESCRIPTION:1교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-69@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261106T103000
+DTEND;TZID=Asia/Seoul:20261106T113000
+SUMMARY:[B반] 항공기기체 부품 열처리\, 검사
+LOCATION:409호
+DESCRIPTION:2교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-70@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261106T113000
+DTEND;TZID=Asia/Seoul:20261106T123000
+SUMMARY:[B반] 항공기기체 부품 열처리\, 검사
+LOCATION:409호
+DESCRIPTION:3교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-71@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261106T133000
+DTEND;TZID=Asia/Seoul:20261106T143000
+SUMMARY:[B반] 항공역사와 비행원리
+LOCATION:409호
+DESCRIPTION:5교시 / 강사: 송용우\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-72@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261106T143000
+DTEND;TZID=Asia/Seoul:20261106T153000
+SUMMARY:[B반] 항공역사와 비행원리
+LOCATION:409호
+DESCRIPTION:6교시 / 강사: 송용우\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-73@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261106T153000
+DTEND;TZID=Asia/Seoul:20261106T163000
+SUMMARY:[B반] 항공역사와 비행원리
+LOCATION:409호
+DESCRIPTION:7교시 / 강사: 송용우\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-74@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261106T163000
+DTEND;TZID=Asia/Seoul:20261106T173000
+SUMMARY:[B반] 항공역사와 비행원리
+LOCATION:409호
+DESCRIPTION:8교시 / 강사: 송용우\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-75@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261109T093000
+DTEND;TZID=Asia/Seoul:20261109T103000
+SUMMARY:[B반] 비행 시뮬레이터 실습
+LOCATION:306호
+DESCRIPTION:1교시 / 강사: 송용우\n비행원리 및 조종원리 
+ 이해\nhttps://asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-76@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261109T103000
+DTEND;TZID=Asia/Seoul:20261109T113000
+SUMMARY:[B반] 비행 시뮬레이터 실습
+LOCATION:306호
+DESCRIPTION:2교시 / 강사: 송용우\n비행원리 및 조종원리 
+ 이해\nhttps://asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-77@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261109T113000
+DTEND;TZID=Asia/Seoul:20261109T123000
+SUMMARY:[B반] 비행 시뮬레이터 실습
+LOCATION:306호
+DESCRIPTION:3교시 / 강사: 송용우\n비행원리 및 조종원리 
+ 이해\nhttps://asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-78@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261109T133000
+DTEND;TZID=Asia/Seoul:20261109T143000
+SUMMARY:[B반] 항공기술영어 (용어)
+LOCATION:409호
+DESCRIPTION:5교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-79@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261109T143000
+DTEND;TZID=Asia/Seoul:20261109T153000
+SUMMARY:[B반] 항공기술영어 (용어)
+LOCATION:409호
+DESCRIPTION:6교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-80@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261109T153000
+DTEND;TZID=Asia/Seoul:20261109T163000
+SUMMARY:[B반] 항공기술영어 (용어)
+LOCATION:409호
+DESCRIPTION:7교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-81@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261109T163000
+DTEND;TZID=Asia/Seoul:20261109T173000
+SUMMARY:[B반] 항공기술영어 (용어)
+LOCATION:409호
+DESCRIPTION:8교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-82@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261110T093000
+DTEND;TZID=Asia/Seoul:20261110T103000
+SUMMARY:[B반] 법정의무교육
+LOCATION:409호
+DESCRIPTION:1교시 / 강사: 박신영\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-83@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261110T103000
+DTEND;TZID=Asia/Seoul:20261110T113000
+SUMMARY:[B반] 법정의무교육
+LOCATION:409호
+DESCRIPTION:2교시 / 강사: 박신영\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-84@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261110T113000
+DTEND;TZID=Asia/Seoul:20261110T123000
+SUMMARY:[B반] 법정의무교육
+LOCATION:409호
+DESCRIPTION:3교시 / 강사: 박신영\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-85@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261110T133000
+DTEND;TZID=Asia/Seoul:20261110T143000
+SUMMARY:[B반] 인턴·정식사원·인생 성장계획
+LOCATION:409호
+DESCRIPTION:5교시 / 강사: 김형래\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-86@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261110T143000
+DTEND;TZID=Asia/Seoul:20261110T153000
+SUMMARY:[B반] 인턴·정식사원·인생 성장계획
+LOCATION:409호
+DESCRIPTION:6교시 / 강사: 김형래\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-87@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261110T153000
+DTEND;TZID=Asia/Seoul:20261110T163000
+SUMMARY:[B반] 인턴·정식사원·인생 성장계획
+LOCATION:409호
+DESCRIPTION:7교시 / 강사: 김형래\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-88@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261110T163000
+DTEND;TZID=Asia/Seoul:20261110T173000
+SUMMARY:[B반] 인턴·정식사원·인생 성장계획
+LOCATION:409호
+DESCRIPTION:8교시 / 강사: 김형래\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-89@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261111T093000
+DTEND;TZID=Asia/Seoul:20261111T103000
+SUMMARY:[B반] 비행 시뮬레이터 실습
+LOCATION:306호
+DESCRIPTION:1교시 / 강사: 송용우\n비행원리 및 조종원리 
+ 이해\nhttps://asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-90@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261111T103000
+DTEND;TZID=Asia/Seoul:20261111T113000
+SUMMARY:[B반] 비행 시뮬레이터 실습
+LOCATION:306호
+DESCRIPTION:2교시 / 강사: 송용우\n비행원리 및 조종원리 
+ 이해\nhttps://asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-91@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261111T113000
+DTEND;TZID=Asia/Seoul:20261111T123000
+SUMMARY:[B반] 비행 시뮬레이터 실습
+LOCATION:306호
+DESCRIPTION:3교시 / 강사: 송용우\n비행원리 및 조종원리 
+ 이해\nhttps://asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-92@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261111T133000
+DTEND;TZID=Asia/Seoul:20261111T143000
+SUMMARY:[B반] 치공구 설계\, 제작\, 관리
+LOCATION:409호
+DESCRIPTION:5교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-93@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261111T143000
+DTEND;TZID=Asia/Seoul:20261111T153000
+SUMMARY:[B반] 치공구 설계\, 제작\, 관리
+LOCATION:409호
+DESCRIPTION:6교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-94@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261111T153000
+DTEND;TZID=Asia/Seoul:20261111T163000
+SUMMARY:[B반] 치공구 설계\, 제작\, 관리
+LOCATION:409호
+DESCRIPTION:7교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-95@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261111T163000
+DTEND;TZID=Asia/Seoul:20261111T173000
+SUMMARY:[B반] 치공구 설계\, 제작\, 관리
+LOCATION:409호
+DESCRIPTION:8교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-96@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261112T093000
+DTEND;TZID=Asia/Seoul:20261112T103000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:203호
+DESCRIPTION:1교시 / 강사: 권혁준\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-97@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261112T103000
+DTEND;TZID=Asia/Seoul:20261112T113000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:203호
+DESCRIPTION:2교시 / 강사: 권혁준\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-98@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261112T113000
+DTEND;TZID=Asia/Seoul:20261112T123000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:203호
+DESCRIPTION:3교시 / 강사: 권혁준\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-99@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261112T133000
+DTEND;TZID=Asia/Seoul:20261112T143000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:5교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-100@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261112T143000
+DTEND;TZID=Asia/Seoul:20261112T153000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:6교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-101@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261112T153000
+DTEND;TZID=Asia/Seoul:20261112T163000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:409호
+DESCRIPTION:7교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-102@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261112T163000
+DTEND;TZID=Asia/Seoul:20261112T173000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:409호
+DESCRIPTION:8교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-103@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261113T093000
+DTEND;TZID=Asia/Seoul:20261113T103000
+SUMMARY:[B반] 항공기기체 검사
+LOCATION:409호
+DESCRIPTION:1교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-104@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261113T103000
+DTEND;TZID=Asia/Seoul:20261113T113000
+SUMMARY:[B반] 항공기기체 검사
+LOCATION:409호
+DESCRIPTION:2교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-105@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261113T113000
+DTEND;TZID=Asia/Seoul:20261113T123000
+SUMMARY:[B반] 항공기기체 검사
+LOCATION:409호
+DESCRIPTION:3교시 / 강사: 유덕정\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-106@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261113T133000
+DTEND;TZID=Asia/Seoul:20261113T143000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:5교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-107@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261113T143000
+DTEND;TZID=Asia/Seoul:20261113T153000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:6교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-108@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261113T153000
+DTEND;TZID=Asia/Seoul:20261113T163000
+SUMMARY:[B반] 현업실무자 특강
+LOCATION:409호
+DESCRIPTION:7교시 / 강사: KAI\n현업실무자 특강\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-109@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261113T163000
+DTEND;TZID=Asia/Seoul:20261113T173000
+SUMMARY:[B반] 현업실무자 특강
+LOCATION:409호
+DESCRIPTION:8교시 / 강사: KAI\n현업실무자 특강\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-110@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261116T093000
+DTEND;TZID=Asia/Seoul:20261116T103000
+SUMMARY:[B반] 각 조별 KF-21 모형제작
+LOCATION:409호
+DESCRIPTION:1교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-111@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261116T103000
+DTEND;TZID=Asia/Seoul:20261116T113000
+SUMMARY:[B반] 각 조별 KF-21 모형제작
+LOCATION:409호
+DESCRIPTION:2교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-112@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261116T113000
+DTEND;TZID=Asia/Seoul:20261116T123000
+SUMMARY:[B반] 각 조별 KF-21 모형제작
+LOCATION:409호
+DESCRIPTION:3교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-113@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261116T133000
+DTEND;TZID=Asia/Seoul:20261116T143000
+SUMMARY:[B반] 각 조별 KF-21 모형제작
+LOCATION:409호
+DESCRIPTION:5교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-114@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261116T143000
+DTEND;TZID=Asia/Seoul:20261116T153000
+SUMMARY:[B반] 각 조별 KF-21 모형제작
+LOCATION:409호
+DESCRIPTION:6교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-115@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261116T153000
+DTEND;TZID=Asia/Seoul:20261116T163000
+SUMMARY:[B반] 각 조별 KF-21 모형제작
+LOCATION:409호
+DESCRIPTION:7교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-116@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261116T163000
+DTEND;TZID=Asia/Seoul:20261116T173000
+SUMMARY:[B반] 각 조별 KF-21 모형제작
+LOCATION:409호
+DESCRIPTION:8교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-117@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261117T093000
+DTEND;TZID=Asia/Seoul:20261117T103000
+SUMMARY:[B반] 전선 교환하기\, 스플라이스 작업하기 실습
+LOCATION:308호
+DESCRIPTION:1교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-118@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261117T103000
+DTEND;TZID=Asia/Seoul:20261117T113000
+SUMMARY:[B반] 전선 교환하기\, 스플라이스 작업하기 실습
+LOCATION:308호
+DESCRIPTION:2교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-119@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261117T113000
+DTEND;TZID=Asia/Seoul:20261117T123000
+SUMMARY:[B반] 전선 교환하기\, 스플라이스 작업하기 실습
+LOCATION:308호
+DESCRIPTION:3교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-120@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261117T133000
+DTEND;TZID=Asia/Seoul:20261117T143000
+SUMMARY:[B반] KAI 신입직원 준비
+LOCATION:409호
+DESCRIPTION:5교시 / 강사: 박신영\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-121@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261117T143000
+DTEND;TZID=Asia/Seoul:20261117T153000
+SUMMARY:[B반] KAI 신입직원 준비
+LOCATION:409호
+DESCRIPTION:6교시 / 강사: 박신영\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-122@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261117T153000
+DTEND;TZID=Asia/Seoul:20261117T163000
+SUMMARY:[B반] KAI 신입직원 준비
+LOCATION:409호
+DESCRIPTION:7교시 / 강사: 박신영\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-123@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261117T163000
+DTEND;TZID=Asia/Seoul:20261117T173000
+SUMMARY:[B반] KAI 신입직원 준비
+LOCATION:409호
+DESCRIPTION:8교시 / 강사: 박신영\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-124@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261118T093000
+DTEND;TZID=Asia/Seoul:20261118T103000
+SUMMARY:[B반] 항공기술영어 (용어)
+LOCATION:409호
+DESCRIPTION:1교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-125@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261118T103000
+DTEND;TZID=Asia/Seoul:20261118T113000
+SUMMARY:[B반] 항공기술영어 (용어)
+LOCATION:409호
+DESCRIPTION:2교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-126@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261118T113000
+DTEND;TZID=Asia/Seoul:20261118T123000
+SUMMARY:[B반] 항공기술영어 (용어)
+LOCATION:409호
+DESCRIPTION:3교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-127@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261118T133000
+DTEND;TZID=Asia/Seoul:20261118T143000
+SUMMARY:[B반] 전선 교환하기\, 스플라이스 작업하기 실습
+LOCATION:308호
+DESCRIPTION:5교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-128@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261118T143000
+DTEND;TZID=Asia/Seoul:20261118T153000
+SUMMARY:[B반] 전선 교환하기\, 스플라이스 작업하기 실습
+LOCATION:308호
+DESCRIPTION:6교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-129@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261118T153000
+DTEND;TZID=Asia/Seoul:20261118T163000
+SUMMARY:[B반] 전선 교환하기\, 스플라이스 작업하기 실습
+LOCATION:308호
+DESCRIPTION:7교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-130@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261118T163000
+DTEND;TZID=Asia/Seoul:20261118T173000
+SUMMARY:[B반] 전선 교환하기\, 스플라이스 작업하기 실습
+LOCATION:308호
+DESCRIPTION:8교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-131@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261119T093000
+DTEND;TZID=Asia/Seoul:20261119T103000
+SUMMARY:[B반] 전선 교환하기\, 스플라이스 작업하기 실습
+LOCATION:308호
+DESCRIPTION:1교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-132@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261119T103000
+DTEND;TZID=Asia/Seoul:20261119T113000
+SUMMARY:[B반] 전선 교환하기\, 스플라이스 작업하기 실습
+LOCATION:308호
+DESCRIPTION:2교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-133@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261119T113000
+DTEND;TZID=Asia/Seoul:20261119T123000
+SUMMARY:[B반] 전선 교환하기\, 스플라이스 작업하기 실습
+LOCATION:308호
+DESCRIPTION:3교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-134@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261119T133000
+DTEND;TZID=Asia/Seoul:20261119T143000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:5교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-135@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261119T143000
+DTEND;TZID=Asia/Seoul:20261119T153000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:6교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-136@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261119T153000
+DTEND;TZID=Asia/Seoul:20261119T163000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:7교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-137@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261119T163000
+DTEND;TZID=Asia/Seoul:20261119T173000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:8교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-138@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261120T093000
+DTEND;TZID=Asia/Seoul:20261120T103000
+SUMMARY:[B반] 각 조별 KF-21 모형제작
+LOCATION:409호
+DESCRIPTION:1교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-139@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261120T103000
+DTEND;TZID=Asia/Seoul:20261120T113000
+SUMMARY:[B반] 각 조별 KF-21 모형제작
+LOCATION:409호
+DESCRIPTION:2교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-140@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261120T113000
+DTEND;TZID=Asia/Seoul:20261120T123000
+SUMMARY:[B반] 각 조별 KF-21 모형제작
+LOCATION:409호
+DESCRIPTION:3교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-141@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261120T133000
+DTEND;TZID=Asia/Seoul:20261120T143000
+SUMMARY:[B반] 각 조별 KF-21 모형제작
+LOCATION:409호
+DESCRIPTION:5교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-142@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261120T143000
+DTEND;TZID=Asia/Seoul:20261120T153000
+SUMMARY:[B반] 각 조별 KF-21 모형제작
+LOCATION:409호
+DESCRIPTION:6교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-143@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261120T153000
+DTEND;TZID=Asia/Seoul:20261120T163000
+SUMMARY:[B반] 각 조별 KF-21 모형제작
+LOCATION:409호
+DESCRIPTION:7교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-144@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261120T163000
+DTEND;TZID=Asia/Seoul:20261120T173000
+SUMMARY:[B반] 각 조별 KF-21 모형제작
+LOCATION:409호
+DESCRIPTION:8교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-145@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261123T093000
+DTEND;TZID=Asia/Seoul:20261123T103000
+SUMMARY:[B반] KAI 신입직원 준비
+LOCATION:409호
+DESCRIPTION:1교시 / 강사: 박신영\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-146@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261123T103000
+DTEND;TZID=Asia/Seoul:20261123T113000
+SUMMARY:[B반] KAI 신입직원 준비
+LOCATION:409호
+DESCRIPTION:2교시 / 강사: 박신영\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-147@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261123T113000
+DTEND;TZID=Asia/Seoul:20261123T123000
+SUMMARY:[B반] KAI 신입직원 준비
+LOCATION:409호
+DESCRIPTION:3교시 / 강사: 박신영\n취업컨설팅\nhttps://asea-co
+ llege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-148@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261123T133000
+DTEND;TZID=Asia/Seoul:20261123T143000
+SUMMARY:[B반] 커넥터\, 터미널 작업하기 실습
+LOCATION:308호
+DESCRIPTION:5교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-149@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261123T143000
+DTEND;TZID=Asia/Seoul:20261123T153000
+SUMMARY:[B반] 커넥터\, 터미널 작업하기 실습
+LOCATION:308호
+DESCRIPTION:6교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-150@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261123T153000
+DTEND;TZID=Asia/Seoul:20261123T163000
+SUMMARY:[B반] 현업실무자 특강
+LOCATION:409호
+DESCRIPTION:7교시 / 강사: KAI\n현업실무자 특강\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-151@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261123T163000
+DTEND;TZID=Asia/Seoul:20261123T173000
+SUMMARY:[B반] 현업실무자 특강
+LOCATION:409호
+DESCRIPTION:8교시 / 강사: KAI\n현업실무자 특강\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-152@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261124T093000
+DTEND;TZID=Asia/Seoul:20261124T103000
+SUMMARY:[B반] 항공박물관 및 인천공항 전망대
+LOCATION:
+DESCRIPTION:1교시 / 강사: 심우제\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-153@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261124T103000
+DTEND;TZID=Asia/Seoul:20261124T113000
+SUMMARY:[B반] 항공박물관 및 인천공항 전망대
+LOCATION:
+DESCRIPTION:2교시 / 강사: 심우제\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-154@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261124T113000
+DTEND;TZID=Asia/Seoul:20261124T123000
+SUMMARY:[B반] 항공박물관 및 인천공항 전망대
+LOCATION:
+DESCRIPTION:3교시 / 강사: 심우제\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-155@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261124T133000
+DTEND;TZID=Asia/Seoul:20261124T143000
+SUMMARY:[B반] 항공박물관 및 인천공항 전망대
+LOCATION:
+DESCRIPTION:5교시 / 강사: 심우제\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-156@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261124T143000
+DTEND;TZID=Asia/Seoul:20261124T153000
+SUMMARY:[B반] 항공박물관 및 인천공항 전망대
+LOCATION:
+DESCRIPTION:6교시 / 강사: 심우제\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-157@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261124T153000
+DTEND;TZID=Asia/Seoul:20261124T163000
+SUMMARY:[B반] 항공박물관 및 인천공항 전망대
+LOCATION:
+DESCRIPTION:7교시 / 강사: 심우제\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-158@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261124T163000
+DTEND;TZID=Asia/Seoul:20261124T173000
+SUMMARY:[B반] 항공박물관 및 인천공항 전망대
+LOCATION:
+DESCRIPTION:8교시 / 강사: 심우제\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-159@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261125T093000
+DTEND;TZID=Asia/Seoul:20261125T103000
+SUMMARY:[B반] 비행 시뮬레이터 실습
+LOCATION:306호
+DESCRIPTION:1교시 / 강사: 송용우\n비행원리 및 조종원리 
+ 이해\nhttps://asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-160@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261125T103000
+DTEND;TZID=Asia/Seoul:20261125T113000
+SUMMARY:[B반] 비행 시뮬레이터 실습
+LOCATION:306호
+DESCRIPTION:2교시 / 강사: 송용우\n비행원리 및 조종원리 
+ 이해\nhttps://asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-161@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261125T113000
+DTEND;TZID=Asia/Seoul:20261125T123000
+SUMMARY:[B반] 비행 시뮬레이터 실습
+LOCATION:306호
+DESCRIPTION:3교시 / 강사: 송용우\n비행원리 및 조종원리 
+ 이해\nhttps://asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-162@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261125T133000
+DTEND;TZID=Asia/Seoul:20261125T143000
+SUMMARY:[B반] 항공기술영어 (용어)
+LOCATION:409호
+DESCRIPTION:5교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-163@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261125T143000
+DTEND;TZID=Asia/Seoul:20261125T153000
+SUMMARY:[B반] 항공기술영어 (용어)
+LOCATION:409호
+DESCRIPTION:6교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-164@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261125T153000
+DTEND;TZID=Asia/Seoul:20261125T163000
+SUMMARY:[B반] 항공기술영어 (용어)
+LOCATION:409호
+DESCRIPTION:7교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-165@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261125T163000
+DTEND;TZID=Asia/Seoul:20261125T173000
+SUMMARY:[B반] 항공기술영어 (용어)
+LOCATION:409호
+DESCRIPTION:8교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-166@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261126T093000
+DTEND;TZID=Asia/Seoul:20261126T103000
+SUMMARY:[B반] 단위구성품 시험하기\, 장비 통합\, ESS 시험
+ 하기
+LOCATION:409호
+DESCRIPTION:1교시 / 강사: 심우제\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-167@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261126T103000
+DTEND;TZID=Asia/Seoul:20261126T113000
+SUMMARY:[B반] 단위구성품 시험하기\, 장비 통합\, ESS 시험
+ 하기
+LOCATION:409호
+DESCRIPTION:2교시 / 강사: 심우제\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-168@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261126T113000
+DTEND;TZID=Asia/Seoul:20261126T123000
+SUMMARY:[B반] 단위구성품 시험하기\, 장비 통합\, ESS 시험
+ 하기
+LOCATION:409호
+DESCRIPTION:3교시 / 강사: 심우제\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-169@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261126T133000
+DTEND;TZID=Asia/Seoul:20261126T143000
+SUMMARY:[B반] 단위구성품 시험하기\, 장비 통합\, ESS 시험
+ 하기
+LOCATION:409호
+DESCRIPTION:5교시 / 강사: 심우제\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-170@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261126T143000
+DTEND;TZID=Asia/Seoul:20261126T153000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:6교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-171@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261126T153000
+DTEND;TZID=Asia/Seoul:20261126T163000
+SUMMARY:[B반] 커넥터\, 터미널 작업하기 실습
+LOCATION:409호
+DESCRIPTION:7교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-172@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261126T163000
+DTEND;TZID=Asia/Seoul:20261126T173000
+SUMMARY:[B반] 커넥터\, 터미널 작업하기 실습
+LOCATION:409호
+DESCRIPTION:8교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-173@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261127T093000
+DTEND;TZID=Asia/Seoul:20261127T103000
+SUMMARY:[B반] 수락시험하기\, 초도품 검사 준비하기\, ESD 
+ 교육
+LOCATION:409호
+DESCRIPTION:1교시 / 강사: 심우제\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-174@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261127T103000
+DTEND;TZID=Asia/Seoul:20261127T113000
+SUMMARY:[B반] 수락시험하기\, 초도품 검사 준비하기\, ESD 
+ 교육
+LOCATION:409호
+DESCRIPTION:2교시 / 강사: 심우제\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-175@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261127T113000
+DTEND;TZID=Asia/Seoul:20261127T123000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:203호
+DESCRIPTION:3교시 / 강사: 권혁준\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-176@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261127T133000
+DTEND;TZID=Asia/Seoul:20261127T143000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:5교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-177@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261127T143000
+DTEND;TZID=Asia/Seoul:20261127T153000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:6교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-178@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261127T153000
+DTEND;TZID=Asia/Seoul:20261127T163000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:7교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-179@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261127T163000
+DTEND;TZID=Asia/Seoul:20261127T173000
+SUMMARY:[B반] 중간평가 (이론)
+LOCATION:409호
+DESCRIPTION:8교시 / 강사: 심우제\n평 가\nhttps://asea-college.gi
+ thub.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-180@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261130T093000
+DTEND;TZID=Asia/Seoul:20261130T103000
+SUMMARY:[B반] 각 조별 KF-21 모형제작
+LOCATION:409호
+DESCRIPTION:1교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-181@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261130T103000
+DTEND;TZID=Asia/Seoul:20261130T113000
+SUMMARY:[B반] 각 조별 KF-21 모형제작
+LOCATION:409호
+DESCRIPTION:2교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-182@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261130T113000
+DTEND;TZID=Asia/Seoul:20261130T123000
+SUMMARY:[B반] 각 조별 KF-21 모형제작
+LOCATION:409호
+DESCRIPTION:3교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-183@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261130T133000
+DTEND;TZID=Asia/Seoul:20261130T143000
+SUMMARY:[B반] 각 조별 KF-21 모형제작
+LOCATION:409호
+DESCRIPTION:5교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-184@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261130T143000
+DTEND;TZID=Asia/Seoul:20261130T153000
+SUMMARY:[B반] 각 조별 KF-21 모형제작
+LOCATION:409호
+DESCRIPTION:6교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-185@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261130T153000
+DTEND;TZID=Asia/Seoul:20261130T163000
+SUMMARY:[B반] 각 조별 KF-21 모형제작
+LOCATION:409호
+DESCRIPTION:7교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-186@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261130T163000
+DTEND;TZID=Asia/Seoul:20261130T173000
+SUMMARY:[B반] 각 조별 KF-21 모형제작
+LOCATION:409호
+DESCRIPTION:8교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-187@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261201T093000
+DTEND;TZID=Asia/Seoul:20261201T103000
+SUMMARY:[B반] 커넥터\, 터미널 작업하기 실습
+LOCATION:308호
+DESCRIPTION:1교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-188@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261201T103000
+DTEND;TZID=Asia/Seoul:20261201T113000
+SUMMARY:[B반] 커넥터\, 터미널 작업하기 실습
+LOCATION:308호
+DESCRIPTION:2교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-189@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261201T113000
+DTEND;TZID=Asia/Seoul:20261201T123000
+SUMMARY:[B반] 커넥터\, 터미널 작업하기 실습
+LOCATION:308호
+DESCRIPTION:3교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-190@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261201T133000
+DTEND;TZID=Asia/Seoul:20261201T143000
+SUMMARY:[B반] 항공기술영어 (용어)
+LOCATION:409호
+DESCRIPTION:5교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-191@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261201T143000
+DTEND;TZID=Asia/Seoul:20261201T153000
+SUMMARY:[B반] 항공기술영어 (용어)
+LOCATION:409호
+DESCRIPTION:6교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-192@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261201T153000
+DTEND;TZID=Asia/Seoul:20261201T163000
+SUMMARY:[B반] 항공기술영어 (용어)
+LOCATION:409호
+DESCRIPTION:7교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-193@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261201T163000
+DTEND;TZID=Asia/Seoul:20261201T173000
+SUMMARY:[B반] 항공기술영어 (용어)
+LOCATION:409호
+DESCRIPTION:8교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-194@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261202T093000
+DTEND;TZID=Asia/Seoul:20261202T103000
+SUMMARY:[B반] 각 조별 KF-21 모형제작
+LOCATION:409호
+DESCRIPTION:1교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-195@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261202T103000
+DTEND;TZID=Asia/Seoul:20261202T113000
+SUMMARY:[B반] 각 조별 KF-21 모형제작
+LOCATION:409호
+DESCRIPTION:2교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-196@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261202T113000
+DTEND;TZID=Asia/Seoul:20261202T123000
+SUMMARY:[B반] 각 조별 KF-21 모형제작
+LOCATION:409호
+DESCRIPTION:3교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-197@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261202T133000
+DTEND;TZID=Asia/Seoul:20261202T143000
+SUMMARY:[B반] 각 조별 KF-21 모형제작
+LOCATION:409호
+DESCRIPTION:5교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-198@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261202T143000
+DTEND;TZID=Asia/Seoul:20261202T153000
+SUMMARY:[B반] 각 조별 KF-21 모형제작
+LOCATION:409호
+DESCRIPTION:6교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-199@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261202T153000
+DTEND;TZID=Asia/Seoul:20261202T163000
+SUMMARY:[B반] 각 조별 KF-21 모형제작
+LOCATION:409호
+DESCRIPTION:7교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-200@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261202T163000
+DTEND;TZID=Asia/Seoul:20261202T173000
+SUMMARY:[B반] 각 조별 KF-21 모형제작
+LOCATION:409호
+DESCRIPTION:8교시 / 강사: 송용우\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-201@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261203T093000
+DTEND;TZID=Asia/Seoul:20261203T103000
+SUMMARY:[B반] 커넥터\, 터미널 작업하기 실습
+LOCATION:308호
+DESCRIPTION:1교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-202@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261203T103000
+DTEND;TZID=Asia/Seoul:20261203T113000
+SUMMARY:[B반] 커넥터\, 터미널 작업하기 실습
+LOCATION:308호
+DESCRIPTION:2교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-203@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261203T113000
+DTEND;TZID=Asia/Seoul:20261203T123000
+SUMMARY:[B반] 커넥터\, 터미널 작업하기 실습
+LOCATION:308호
+DESCRIPTION:3교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-204@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261203T133000
+DTEND;TZID=Asia/Seoul:20261203T143000
+SUMMARY:[B반] 커넥터\, 터미널\, 스플라이스 평가
+LOCATION:308호
+DESCRIPTION:5교시 / 강사: 황인수\n평 가\nhttps://asea-college.gi
+ thub.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-205@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261203T143000
+DTEND;TZID=Asia/Seoul:20261203T153000
+SUMMARY:[B반] 커넥터\, 터미널\, 스플라이스 평가
+LOCATION:308호
+DESCRIPTION:6교시 / 강사: 황인수\n평 가\nhttps://asea-college.gi
+ thub.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-206@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261203T153000
+DTEND;TZID=Asia/Seoul:20261203T163000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:7교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-207@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261203T163000
+DTEND;TZID=Asia/Seoul:20261203T173000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:8교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-208@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261204T093000
+DTEND;TZID=Asia/Seoul:20261204T103000
+SUMMARY:[B반] LRU 장탈∙착 실습
+LOCATION:308호
+DESCRIPTION:1교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-209@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261204T103000
+DTEND;TZID=Asia/Seoul:20261204T113000
+SUMMARY:[B반] LRU 장탈∙착 실습
+LOCATION:308호
+DESCRIPTION:2교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-210@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261204T113000
+DTEND;TZID=Asia/Seoul:20261204T123000
+SUMMARY:[B반] LRU 장탈∙착 실습
+LOCATION:308호
+DESCRIPTION:3교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-211@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261204T133000
+DTEND;TZID=Asia/Seoul:20261204T143000
+SUMMARY:[B반] 복합재 성형\, 가공
+LOCATION:409호
+DESCRIPTION:5교시 / 강사: 김형래\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-212@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261204T143000
+DTEND;TZID=Asia/Seoul:20261204T153000
+SUMMARY:[B반] 복합재 성형\, 가공
+LOCATION:409호
+DESCRIPTION:6교시 / 강사: 김형래\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-213@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261204T153000
+DTEND;TZID=Asia/Seoul:20261204T163000
+SUMMARY:[B반] 복합재 성형\, 가공
+LOCATION:409호
+DESCRIPTION:7교시 / 강사: 김형래\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-214@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261204T163000
+DTEND;TZID=Asia/Seoul:20261204T173000
+SUMMARY:[B반] 복합재 성형\, 가공
+LOCATION:409호
+DESCRIPTION:8교시 / 강사: 김형래\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-215@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261207T093000
+DTEND;TZID=Asia/Seoul:20261207T103000
+SUMMARY:[B반] 수락시험하기\, 초도품 검사 준비하기\, ESD 
+ 교육
+LOCATION:409호
+DESCRIPTION:1교시 / 강사: 심우제\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-216@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261207T103000
+DTEND;TZID=Asia/Seoul:20261207T113000
+SUMMARY:[B반] 수락시험하기\, 초도품 검사 준비하기\, ESD 
+ 교육
+LOCATION:409호
+DESCRIPTION:2교시 / 강사: 심우제\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-217@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261207T113000
+DTEND;TZID=Asia/Seoul:20261207T123000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:203호
+DESCRIPTION:3교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-218@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261207T133000
+DTEND;TZID=Asia/Seoul:20261207T143000
+SUMMARY:[B반] LRU 장탈∙착 실습
+LOCATION:308호
+DESCRIPTION:5교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-219@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261207T143000
+DTEND;TZID=Asia/Seoul:20261207T153000
+SUMMARY:[B반] LRU 장탈∙착 실습
+LOCATION:308호
+DESCRIPTION:6교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-220@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261207T153000
+DTEND;TZID=Asia/Seoul:20261207T163000
+SUMMARY:[B반] LRU 장탈∙착 실습
+LOCATION:308호
+DESCRIPTION:7교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-221@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261207T163000
+DTEND;TZID=Asia/Seoul:20261207T173000
+SUMMARY:[B반] LRU 장탈∙착 실습
+LOCATION:308호
+DESCRIPTION:8교시 / 강사: 황인수\n전기전자장비\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-222@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261208T093000
+DTEND;TZID=Asia/Seoul:20261208T103000
+SUMMARY:[B반] LRU 장탈∙착 평가
+LOCATION:308호
+DESCRIPTION:1교시 / 강사: 황인수\n평 가\nhttps://asea-college.gi
+ thub.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-223@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261208T103000
+DTEND;TZID=Asia/Seoul:20261208T113000
+SUMMARY:[B반] LRU 장탈∙착 평가
+LOCATION:308호
+DESCRIPTION:2교시 / 강사: 황인수\n평 가\nhttps://asea-college.gi
+ thub.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-224@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261208T113000
+DTEND;TZID=Asia/Seoul:20261208T123000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:203호
+DESCRIPTION:3교시 / 강사: 권혁준\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-225@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261208T133000
+DTEND;TZID=Asia/Seoul:20261208T143000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:5교시 / 강사: 권혁준\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-226@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261208T143000
+DTEND;TZID=Asia/Seoul:20261208T153000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:6교시 / 강사: 권혁준\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-227@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261208T153000
+DTEND;TZID=Asia/Seoul:20261208T163000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:7교시 / 강사: 권혁준\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-228@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261208T163000
+DTEND;TZID=Asia/Seoul:20261208T173000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:8교시 / 강사: 권혁준\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-229@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261209T093000
+DTEND;TZID=Asia/Seoul:20261209T103000
+SUMMARY:[B반] AI 프로그램 이해
+LOCATION:306호
+DESCRIPTION:1교시 / 강사: 방대원\nAI 기본교육\nhttps://asea-co
+ llege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-230@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261209T103000
+DTEND;TZID=Asia/Seoul:20261209T113000
+SUMMARY:[B반] AI 프로그램 이해
+LOCATION:306호
+DESCRIPTION:2교시 / 강사: 방대원\nAI 기본교육\nhttps://asea-co
+ llege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-231@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261209T113000
+DTEND;TZID=Asia/Seoul:20261209T123000
+SUMMARY:[B반] AI 프로그램 이해
+LOCATION:306호
+DESCRIPTION:3교시 / 강사: 방대원\nAI 기본교육\nhttps://asea-co
+ llege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-232@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261209T133000
+DTEND;TZID=Asia/Seoul:20261209T143000
+SUMMARY:[B반] AI 이미지 생성의 세계
+LOCATION:306호
+DESCRIPTION:5교시 / 강사: 방대원\nAI 기본교육\nhttps://asea-co
+ llege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-233@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261209T143000
+DTEND;TZID=Asia/Seoul:20261209T153000
+SUMMARY:[B반] AI 이미지 생성의 세계
+LOCATION:306호
+DESCRIPTION:6교시 / 강사: 방대원\nAI 기본교육\nhttps://asea-co
+ llege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-234@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261209T153000
+DTEND;TZID=Asia/Seoul:20261209T163000
+SUMMARY:[B반] AI 이미지 생성의 세계
+LOCATION:306호
+DESCRIPTION:7교시 / 강사: 방대원\nAI 기본교육\nhttps://asea-co
+ llege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-235@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261209T163000
+DTEND;TZID=Asia/Seoul:20261209T173000
+SUMMARY:[B반] AI 이미지 생성의 세계
+LOCATION:306호
+DESCRIPTION:8교시 / 강사: 방대원\nAI 기본교육\nhttps://asea-co
+ llege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-236@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261210T093000
+DTEND;TZID=Asia/Seoul:20261210T103000
+SUMMARY:[B반] 항공기술영어 (용어)
+LOCATION:409호
+DESCRIPTION:1교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-237@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261210T103000
+DTEND;TZID=Asia/Seoul:20261210T113000
+SUMMARY:[B반] 항공기술영어 (용어)
+LOCATION:409호
+DESCRIPTION:2교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-238@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261210T113000
+DTEND;TZID=Asia/Seoul:20261210T123000
+SUMMARY:[B반] 항공기술영어 (용어)
+LOCATION:409호
+DESCRIPTION:3교시 / 강사: 김형래\n항공기 일반\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-239@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261210T133000
+DTEND;TZID=Asia/Seoul:20261210T143000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:5교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-240@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261210T143000
+DTEND;TZID=Asia/Seoul:20261210T153000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:6교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-241@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261210T153000
+DTEND;TZID=Asia/Seoul:20261210T163000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:7교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-242@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261210T163000
+DTEND;TZID=Asia/Seoul:20261210T173000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:8교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-243@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261211T093000
+DTEND;TZID=Asia/Seoul:20261211T103000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:1교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-244@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261211T103000
+DTEND;TZID=Asia/Seoul:20261211T113000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:2교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-245@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261211T113000
+DTEND;TZID=Asia/Seoul:20261211T123000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:3교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-246@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261211T133000
+DTEND;TZID=Asia/Seoul:20261211T143000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:5교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-247@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261211T143000
+DTEND;TZID=Asia/Seoul:20261211T153000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:6교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-248@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261211T153000
+DTEND;TZID=Asia/Seoul:20261211T163000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:7교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-249@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261211T163000
+DTEND;TZID=Asia/Seoul:20261211T173000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:204호
+DESCRIPTION:8교시 / 강사: 장성희\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-250@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261214T093000
+DTEND;TZID=Asia/Seoul:20261214T103000
+SUMMARY:[B반] 현업실무자 특강
+LOCATION:309호
+DESCRIPTION:1교시 / 강사: KAI\n현업실무자 특강\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-251@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261214T103000
+DTEND;TZID=Asia/Seoul:20261214T113000
+SUMMARY:[B반] 현업실무자 특강
+LOCATION:309호
+DESCRIPTION:2교시 / 강사: KAI\n현업실무자 특강\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-252@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261214T113000
+DTEND;TZID=Asia/Seoul:20261214T123000
+SUMMARY:[B반] 현업실무자 특강
+LOCATION:309호
+DESCRIPTION:3교시 / 강사: KAI\n현업실무자 특강\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-253@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261214T133000
+DTEND;TZID=Asia/Seoul:20261214T143000
+SUMMARY:[B반] 현업실무자 특강
+LOCATION:309호
+DESCRIPTION:5교시 / 강사: KAI\n현업실무자 특강\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-254@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261214T143000
+DTEND;TZID=Asia/Seoul:20261214T153000
+SUMMARY:[B반] 현업실무자 특강
+LOCATION:309호
+DESCRIPTION:6교시 / 강사: KAI\n현업실무자 특강\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-255@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261214T153000
+DTEND;TZID=Asia/Seoul:20261214T163000
+SUMMARY:[B반] 현업실무자 특강
+LOCATION:309호
+DESCRIPTION:7교시 / 강사: KAI\n현업실무자 특강\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-256@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261214T163000
+DTEND;TZID=Asia/Seoul:20261214T173000
+SUMMARY:[B반] 현업실무자 특강
+LOCATION:309호
+DESCRIPTION:8교시 / 강사: KAI\n현업실무자 특강\nhttps://asea-c
+ ollege.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-257@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261215T093000
+DTEND;TZID=Asia/Seoul:20261215T103000
+SUMMARY:[B반] KAI 현장 견학
+LOCATION:
+DESCRIPTION:1교시 / 강사: 심우제\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-258@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261215T103000
+DTEND;TZID=Asia/Seoul:20261215T113000
+SUMMARY:[B반] KAI 현장 견학
+LOCATION:
+DESCRIPTION:2교시 / 강사: 심우제\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-259@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261215T113000
+DTEND;TZID=Asia/Seoul:20261215T123000
+SUMMARY:[B반] KAI 현장 견학
+LOCATION:
+DESCRIPTION:3교시 / 강사: 심우제\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-260@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261215T133000
+DTEND;TZID=Asia/Seoul:20261215T143000
+SUMMARY:[B반] KAI 현장 견학
+LOCATION:
+DESCRIPTION:5교시 / 강사: 심우제\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-261@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261215T143000
+DTEND;TZID=Asia/Seoul:20261215T153000
+SUMMARY:[B반] KAI 현장 견학
+LOCATION:
+DESCRIPTION:6교시 / 강사: 심우제\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-262@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261215T153000
+DTEND;TZID=Asia/Seoul:20261215T163000
+SUMMARY:[B반] KAI 현장 견학
+LOCATION:
+DESCRIPTION:7교시 / 강사: 심우제\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-263@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261215T163000
+DTEND;TZID=Asia/Seoul:20261215T173000
+SUMMARY:[B반] KAI 현장 견학
+LOCATION:
+DESCRIPTION:8교시 / 강사: 심우제\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-264@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261216T093000
+DTEND;TZID=Asia/Seoul:20261216T103000
+SUMMARY:[B반] KAI 현장 견학
+LOCATION:
+DESCRIPTION:1교시 / 강사: 심우제\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-265@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261216T103000
+DTEND;TZID=Asia/Seoul:20261216T113000
+SUMMARY:[B반] KAI 현장 견학
+LOCATION:
+DESCRIPTION:2교시 / 강사: 심우제\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-266@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261216T113000
+DTEND;TZID=Asia/Seoul:20261216T123000
+SUMMARY:[B반] KAI 현장 견학
+LOCATION:
+DESCRIPTION:3교시 / 강사: 심우제\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-267@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261216T133000
+DTEND;TZID=Asia/Seoul:20261216T143000
+SUMMARY:[B반] KAI 현장 견학
+LOCATION:
+DESCRIPTION:5교시 / 강사: 심우제\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-268@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261216T143000
+DTEND;TZID=Asia/Seoul:20261216T153000
+SUMMARY:[B반] KAI 현장 견학
+LOCATION:
+DESCRIPTION:6교시 / 강사: 심우제\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-269@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261216T153000
+DTEND;TZID=Asia/Seoul:20261216T163000
+SUMMARY:[B반] KAI 현장 견학
+LOCATION:
+DESCRIPTION:7교시 / 강사: 심우제\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-270@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261216T163000
+DTEND;TZID=Asia/Seoul:20261216T173000
+SUMMARY:[B반] KAI 현장 견학
+LOCATION:
+DESCRIPTION:8교시 / 강사: 심우제\n현장견학\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-271@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261217T093000
+DTEND;TZID=Asia/Seoul:20261217T103000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:203호
+DESCRIPTION:1교시 / 강사: 권혁준\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-272@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261217T103000
+DTEND;TZID=Asia/Seoul:20261217T113000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:203호
+DESCRIPTION:2교시 / 강사: 권혁준\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-273@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261217T113000
+DTEND;TZID=Asia/Seoul:20261217T123000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업 실습
+LOCATION:203호
+DESCRIPTION:3교시 / 강사: 권혁준\n항공기 기체제작\nhttps://
+ asea-college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-274@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261217T133000
+DTEND;TZID=Asia/Seoul:20261217T143000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업
+LOCATION:203호
+DESCRIPTION:5교시 / 강사: 권혁준\n평 가\nhttps://asea-college.gi
+ thub.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-275@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261217T143000
+DTEND;TZID=Asia/Seoul:20261217T153000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업
+LOCATION:203호
+DESCRIPTION:6교시 / 강사: 권혁준\n평 가\nhttps://asea-college.gi
+ thub.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-276@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261217T153000
+DTEND;TZID=Asia/Seoul:20261217T163000
+SUMMARY:[B반] 최종평가 (이론)
+LOCATION:409호
+DESCRIPTION:7교시 / 강사: 심우제\n평 가\nhttps://asea-college.gi
+ thub.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-277@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261217T163000
+DTEND;TZID=Asia/Seoul:20261217T173000
+SUMMARY:[B반] 간담회\, 설문조사
+LOCATION:409호
+DESCRIPTION:8교시 / 강사: 심우제\n재량교과\nhttps://asea-colle
+ ge.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-278@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261218T093000
+DTEND;TZID=Asia/Seoul:20261218T103000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업
+LOCATION:203호
+DESCRIPTION:1교시 / 강사: 권혁준\n평 가\nhttps://asea-college.gi
+ thub.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-279@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261218T103000
+DTEND;TZID=Asia/Seoul:20261218T113000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업
+LOCATION:203호
+DESCRIPTION:2교시 / 강사: 권혁준\n평 가\nhttps://asea-college.gi
+ thub.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-280@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261218T113000
+DTEND;TZID=Asia/Seoul:20261218T123000
+SUMMARY:[B반] 항공기 기체 부품 판금 작업
+LOCATION:203호
+DESCRIPTION:3교시 / 강사: 권혁준\n평 가\nhttps://asea-college.gi
+ thub.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-281@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261218T133000
+DTEND;TZID=Asia/Seoul:20261218T143000
+SUMMARY:[B반] 프로젝트 실습 결과 발표
+LOCATION:309호
+DESCRIPTION:5교시 / 강사: 송용우\n종합직무역량\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-282@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261218T143000
+DTEND;TZID=Asia/Seoul:20261218T153000
+SUMMARY:[B반] 프로젝트 실습 결과 발표
+LOCATION:309호
+DESCRIPTION:6교시 / 강사: 송용우\n종합직무역량\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-283@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261218T153000
+DTEND;TZID=Asia/Seoul:20261218T163000
+SUMMARY:[B반] 프로젝트 실습 결과 발표
+LOCATION:309호
+DESCRIPTION:7교시 / 강사: 송용우\n종합직무역량\nhttps://asea
+ -college.github.io/course/2026-kai/b.html
+END:VEVENT
+BEGIN:VEVENT
+UID:b-284@asea-college.github.io
+DTSTAMP:20261105T090723Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Seoul:20261218T163000
+DTEND;TZID=Asia/Seoul:20261218T173000
+SUMMARY:[B반] 수료식
+LOCATION:309호
+DESCRIPTION:8교시 / 강사: \n재량교과\nhttps://asea-college.github
+ .io/course/2026-kai/b.html
+END:VEVENT
+END:VCALENDAR
