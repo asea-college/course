@@ -39,9 +39,69 @@ async function loadAdmin(){const f=await api('contents/2026-kai/state.json?ref=m
 function ical(data,which='all'){const clean=s=>String(s??'').replace(/\\/g,'\\\\').replace(/\n/g,'\\n').replace(/,/g,'\\,').replace(/;/g,'\\;'),stamp=(data.updatedAt||new Date().toISOString()).replace(/[-:]/g,'').replace(/\.\d+Z/,'Z'),rows=data.events.filter(e=>which==='all'||e.group===(which==='a'?'A반':'B반'));const lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//ASEA COLLEGE//KAI 2026//KO','CALSCALE:GREGORIAN','METHOD:PUBLISH','X-WR-CALNAME:'+clean('2026 직업계고 카이과정'+(which==='all'?'':' '+which.toUpperCase()+'반')),'X-WR-TIMEZONE:Asia/Seoul'];for(const e of rows){const t=data.times[e.period],d=e.date.replaceAll('-',''),uid=e.id.replace('A반','a').replace('B반','b');lines.push('BEGIN:VEVENT','UID:'+uid+'@asea-college.github.io','DTSTAMP:'+stamp,'SEQUENCE:'+data.revision,'DTSTART;TZID=Asia/Seoul:'+d+'T'+t[0].replace(':','')+'00','DTEND;TZID=Asia/Seoul:'+d+'T'+t[1].replace(':','')+'00','SUMMARY:'+clean(`[${e.group}] ${e.title}`),'LOCATION:'+clean(e.room),'DESCRIPTION:'+clean(`${e.period}교시 / 강사: ${e.teacher}\n${e.subject}\n${BASE+(e.group==='A반'?'a':'b')+'.html'}`),'END:VEVENT')}lines.push('END:VCALENDAR');return lines.map(line=>{let out='',length=0;for(const char of line){const bytes=new TextEncoder().encode(char).length;if(length+bytes>73){out+='\r\n ';length=1}out+=char;length+=bytes}return out}).join('\r\n')+'\r\n'}
 function artifacts(s){const files={'2026-kai/state.json':JSON.stringify(s,null,2)};for(const g of ['a','b'])files[`2026-kai/${g}.json`]=JSON.stringify({revision:s.revision,updatedAt:s.updatedAt,times:s.times,events:s.events.filter(e=>e.group===(g==='a'?'A반':'B반')),notices:s.notices.filter(n=>n.published&&(n.group==='전체'||n.group===(g==='a'?'A반':'B반')))},null,2);for(const g of ['all','a','b'])files[`2026-kai/${g}.ics`]=ical(s,g);return files}
 async function publish(){if(!token||busy)return;if(!dirty)return msg('공유할 변경사항이 없습니다.');busy=true;$('publish').disabled=true;msg('공유 저장 및 자동 배포를 요청하고 있습니다…');try{const current=await api('contents/2026-kai/state.json?ref=main');if(current.sha!==remoteSha)throw new Error('다른 관리자가 먼저 저장했습니다. 수정본 JSON을 백업한 뒤 최신 자료를 다시 불러오세요.');const ref=await api('git/ref/heads/main');const atHead=await api('contents/2026-kai/state.json?ref='+ref.object.sha);if(atHead.sha!==remoteSha)throw new Error('다른 관리자의 변경이 확인되었습니다. 최신 자료를 다시 불러오세요.');const commit=await api('git/commits/'+ref.object.sha),next={...state,revision:state.revision+1,updatedAt:new Date().toISOString()},files=artifacts(next),tree=await api('git/trees','POST',{base_tree:commit.tree.sha,tree:Object.entries(files).map(([path,content])=>({path,mode:'100644',type:'blob',content}))}),c=await api('git/commits','POST',{message:`KAI shared schedule v${next.revision}`,tree:tree.sha,parents:[ref.object.sha]});await api('git/refs/heads/main','PATCH',{sha:c.sha,force:false});state=next;original=structuredClone(next);remoteSha=(await api('contents/2026-kai/state.json?ref='+c.sha)).sha;dirty=false;window.onbeforeunload=null;$('dirty').textContent='공유판 v'+state.revision+' · 저장됨';render();msg('공유 저장 완료. GitHub Pages 자동 배포 후 학생 링크와 구독 파일이 갱신됩니다. Google 구독 반영은 지연될 수 있습니다.')}catch(err){msg('저장 실패: '+err.message)}finally{busy=false;$('publish').disabled=!token}}
-function printHTML(html){$('printarea').innerHTML=html;document.fonts.ready.then(()=>window.print())}
+function printContext(){
+  const scope=IS_STUDENT?STUDENT:page==='class'?group:page==='person'?teacher+' 개인별':page==='room'?room+' 강의실별':menus[page]||'통합';
+  const mode=IS_STUDENT?(layout==='month'?'월간':'일별'):layout==='month'?'월간':layout==='week'?'주간':'일정표';
+  let range=month;
+  if(IS_STUDENT&&layout!=='month')range=day;
+  else if(layout==='week'){
+    const d=new Date(week+'T12:00:00');d.setDate(d.getDate()-(d.getDay()+6)%7);range=d.toLocaleDateString('sv-SE');d.setDate(d.getDate()+6);range+=' ~ '+d.toLocaleDateString('sv-SE');
+  }
+  return {scope,mode,range,label:scope+' '+mode+' 시간표',monthly:layout==='month'&&(IS_STUDENT||['all','class','person','room'].includes(page))};
+}
+function cleanPrint(html){
+  return html.replace(/<div class="actions">[\s\S]*?<\/div>/g,'').replace(/<button\b([^>]*)>/g,'<span$1>').replace(/<\/button>/g,'</span>').replace(/\s(?:id|data-[\w-]+|title)="[^"]*"/g,'');
+}
+function printSection(content,ctx,index,total,note=''){
+  return `<section class="paper page print-page"><div class="print-title"><small>ASEA COLLEGE · KAI COURSE 2026</small><h2>${esc(ctx.label)}</h2><p>${TITLE}</p><div class="print-meta"><span>기간: ${esc(ctx.range)}</span><span>조회 대상: ${esc(ctx.scope)}</span><span>${ctx.monthly?(detail?'세부사항 표시':'전체 윤곽'):ctx.mode}</span>${note?`<span>${esc(note)}</span>`:''}</div></div><div class="print-content">${cleanPrint(content)}</div><div class="foot"><span>공유판 v${state.revision} · ${esc(state.updatedAt?.slice(0,10))}${dirty?' · 미공유 수정본':''}</span><span>${index} / ${total}</span></div></section>`;
+}
+function buildPrintDocument(format='screen'){
+  const ctx=printContext();
+  if(!IS_STUDENT&&['share','settings'].includes(page))throw new Error('설정 화면에서는 인쇄할 수 없습니다. 시간표 또는 공지 화면을 선택해 주세요.');
+  if(ctx.monthly){
+    const html=monthView();
+    if(format==='split'){
+      // Use the exact current calendar cells; split only at complete week boundaries.
+      const grid=html.slice(html.indexOf('<div class="calendar'),html.lastIndexOf('</div></div>'));
+      const start=grid.indexOf('>')+1,inner=grid.slice(start);
+      const heads=inner.match(/<div class="weekday">[\s\S]*?<\/div>/g)||[];
+      const rest=inner.slice(heads.join('').length),cells=[];let depth=0,from=0;
+      const tags=/<\/?div\b[^>]*>/g;let match;
+      while((match=tags.exec(rest))){if(match[0].startsWith('</'))depth--;else{if(depth===0)from=match.index;depth++;}if(depth===0)cells.push(rest.slice(from,tags.lastIndex));}
+      const chunks=[];for(let i=0;i<cells.length;i+=heads.length)chunks.push(cells.slice(i,i+heads.length));
+      return {ctx,paper:'A4',html:chunks.map((chunk,i)=>printSection(`<div class="calendar ${heads.length===7?'weekends':''}">${heads.join('')+chunk.join('')}</div>`,ctx,i+1,chunks.length,`월간 달력 · ${i+1}번째 주`)).join('')};
+    }
+    return {ctx,paper:'A3',html:printSection(html,ctx,1,1)};
+  }
+  if(IS_STUDENT){
+    const rows=state.events.filter(e=>e.date===day&&e.group===STUDENT);
+    return {ctx,paper:'A4',html:printSection(`<div class="print-daily">${merged(rows).map(lesson).join('')||'<p>수업이 없습니다.</p>'}</div>`,ctx,1,1)};
+  }
+  if(page==='notices'||page==='history')return {ctx,paper:'A4',html:printSection(page==='notices'?noticesView():historyView(),{...ctx,label:menus[page],mode:'목록'},1,1)};
+  if(layout==='week')return {ctx,paper:'A3',html:printSection(weekView(),ctx,1,1)};
+  return {ctx,paper:'A4',html:reportHTML(selected())};
+}
+function printHTML(html,paper='A4'){
+  $('printarea').innerHTML=html;
+  let size=document.getElementById('print-page-size');
+  if(!size){size=document.createElement('style');size.id='print-page-size';document.head.append(size);}
+  size.textContent=`@media print{@page{size:${paper} landscape;margin:10mm}}`;
+  document.fonts.ready.then(()=>window.print());
+}
+function openPrintPreview(){
+  try{
+    const ctx=printContext(),initial=buildPrintDocument();
+    show(`<div class="print-preview-tools"><h3>현재 화면 인쇄 미리보기</h3><p>${esc(ctx.label)} · ${esc(ctx.range)}</p>${ctx.monthly?'<label>출력 배치<select id="print-format"><option value="screen">월간 한눈에 보기 · A3 가로</option><option value="split">월간 달력을 주별로 나누기 · A4 가로</option></select></label>':'<p class="muted">선택한 조회 대상과 화면 모드를 그대로 출력합니다.</p>'}<div class="actions"><button id="print-confirm" class="primary">이대로 인쇄 / PDF</button><button id="print-image">이 모드로 JPG 저장</button></div></div><div id="print-preview-pages" class="print-preview-pages">${initial.html}</div>`);
+    $('modal').classList.add('print-dialog');
+    const build=()=>buildPrintDocument($('print-format')?.value||'screen');
+    on('print-format','onchange',()=>{$('print-preview-pages').innerHTML=build().html;});
+    $('print-confirm').onclick=()=>{const result=build();printHTML(result.html,result.paper);};
+    $('print-image').onclick=()=>{const result=build();jpgHTML(result.html,'KAI-'+result.ctx.scope+'-'+result.ctx.mode+'-'+month);};
+  }catch(err){msg(err.message);}
+}
+
 function reportRows(){if(layout!=='week')return selected();const d=new Date(week+'T12:00:00');d.setDate(d.getDate()-(d.getDay()+6)%7);const start=d.toLocaleDateString('sv-SE');d.setDate(d.getDate()+6);const end=d.toLocaleDateString('sv-SE');return state.events.filter(e=>e.date>=start&&e.date<=end&&(!IS_STUDENT||e.group===STUDENT)&&(page!=='class'||e.group===group)&&(page!=='person'||e.teacher===teacher)&&(page!=='room'||e.room===room))}
 async function jpgHTML(html,name){if(!window.html2canvas)return msg('이미지 저장 기능을 불러오지 못했습니다. 새로고침해 주세요.');msg('출력 이미지를 만들고 있습니다…');const container=document.createElement('div');container.style.cssText='position:absolute;left:-20000px;top:0;width:1400px;background:white;padding:45px;color:#1d334d';container.innerHTML=html;document.body.append(container);try{await document.fonts.ready;const pages=container.querySelectorAll('.page');for(let i=0;i<pages.length;i++){const canvas=await html2canvas(pages[i],{scale:1.6,backgroundColor:'#ffffff',logging:false});await new Promise(resolve=>canvas.toBlob(blob=>{const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`${name}-${i+1}.jpg`;a.click();setTimeout(()=>URL.revokeObjectURL(url),10000);resolve()},'image/jpeg',.95))}msg('JPG 저장 완료. 여러 페이지이면 브라우저의 다중 다운로드를 허용해 주세요.')}catch(err){msg('이미지 저장 실패: '+err.message)}finally{container.remove()}}
 function exportNotice(id,print){const n=state.notices.find(x=>x.id===id);if(!n)return;const html=`<section class="paper page"><div class="paperhead"><small>${TITLE}</small><h2>${esc(n.title)}</h2><p>${esc(n.group)} · ${esc(n.createdAt.slice(0,10))}</p></div><p style="white-space:pre-line;font-size:20px">${esc(n.body)}</p><div class="foot"><span>교육운영 담당 · ${esc(n.author)}</span><span>공유판 v${state.revision}</span></div></section>`;print?printHTML(html):jpgHTML(html,'KAI-공지')}
-async function start(){try{const r=await fetch((IS_STUDENT?(STUDENT==='A반'?'a':'b')+'.json':'state.json')+'?v='+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error('공유 시간표를 불러오지 못했습니다.');state=await r.json();original=structuredClone(state);if(IS_STUDENT){document.body.classList.add('student');$('menu').hidden=true;$('sidebar').remove();$('nav')?.remove();layout='list'}else{$('nav').innerHTML=Object.entries(menus).map(([k,v])=>`<button data-page="${k}">${v}</button>`).join('');document.querySelectorAll('[data-page]').forEach(b=>b.onclick=()=>{page=b.dataset.page;render()});$('connect').onclick=connect;$('publish').onclick=publish;$('logout').onclick=()=>{if(dirty&&!confirm('미공유 수정이 있습니다. 연결만 해제할까요?'))return;token='';actor='';$('publish').disabled=true;$('connect').textContent='관리자 연결';$('logout').hidden=true;render();msg('관리자 연결을 해제했습니다.')};$('menu').onclick=()=>{const hidden=document.body.classList.toggle('collapsed');$('menu').setAttribute('aria-expanded',String(!hidden))}}$('close').onclick=()=>$('modal').close();$('print').onclick=()=>printHTML(reportHTML(reportRows()));$('jpg').onclick=()=>jpgHTML(reportHTML(reportRows()),'KAI-'+(page==='person'?teacher:page==='room'?room:group)+'-'+month);render();msg(IS_STUDENT?'해당 반의 공개 일정입니다. 마지막 공유: '+new Date(state.updatedAt).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'}):'공유 시간표를 불러왔습니다. 관리자 연결 후 일정 수정·공지 공유가 가능합니다.')}catch(err){msg(err.message)}}
+async function start(){try{const r=await fetch((IS_STUDENT?(STUDENT==='A반'?'a':'b')+'.json':'state.json')+'?v='+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error('공유 시간표를 불러오지 못했습니다.');state=await r.json();original=structuredClone(state);if(IS_STUDENT){document.body.classList.add('student');$('menu').hidden=true;$('sidebar').remove();$('nav')?.remove();layout='list'}else{$('nav').innerHTML=Object.entries(menus).map(([k,v])=>`<button data-page="${k}">${v}</button>`).join('');document.querySelectorAll('[data-page]').forEach(b=>b.onclick=()=>{page=b.dataset.page;render()});$('connect').onclick=connect;$('publish').onclick=publish;$('logout').onclick=()=>{if(dirty&&!confirm('미공유 수정이 있습니다. 연결만 해제할까요?'))return;token='';actor='';$('publish').disabled=true;$('connect').textContent='관리자 연결';$('logout').hidden=true;render();msg('관리자 연결을 해제했습니다.')};$('menu').onclick=()=>{const hidden=document.body.classList.toggle('collapsed');$('menu').setAttribute('aria-expanded',String(!hidden))}}$('close').onclick=()=>$('modal').close();$('modal').addEventListener('close',()=>$('modal').classList.remove('print-dialog'));$('print').onclick=openPrintPreview;$('jpg').onclick=()=>{try{const result=buildPrintDocument();jpgHTML(result.html,'KAI-'+result.ctx.scope+'-'+result.ctx.mode+'-'+month);}catch(err){msg(err.message);}};render();msg(IS_STUDENT?'해당 반의 공개 일정입니다. 마지막 공유: '+new Date(state.updatedAt).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'}):'공유 시간표를 불러왔습니다. 관리자 연결 후 일정 수정·공지 공유가 가능합니다.')}catch(err){msg(err.message)}}
 if(typeof document!=='undefined'){start();setInterval(async()=>{if(!state||dirty||token||busy||document.hidden)return;try{const r=await fetch((IS_STUDENT?(STUDENT==='A반'?'a':'b')+'.json':'state.json')+'?v='+Date.now(),{cache:'no-store'});if(!r.ok)return;const next=await r.json();if(next.revision>state.revision){state=next;render();msg('최신 공유 일정과 공지를 반영했습니다.')}}catch{}},60000)}
