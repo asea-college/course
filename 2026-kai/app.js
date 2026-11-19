@@ -71,7 +71,93 @@ function validatePlan(rows){
   warnings.push(...hours);
   return {errors:[...new Set(errors)],warnings,hours,events,existing:conflicts.size-[...conflicts.keys()].filter(k=>!before.has(k)).length};
 }
+function slotMinutes(e){const t=state.times[e.period];if(!t)return 0;const minutes=s=>{const [h,m]=s.split(':').map(Number);return h*60+m;};return minutes(t[1])-minutes(t[0]);}
+function exchangeRows(left,right,assignments){
+  const errors=[],all=[...left,...right],seen=new Set();
+  for(const e of all){if(seen.has(e.id))errors.push('같은 슬롯을 양쪽에 중복 선택할 수 없습니다.');seen.add(e.id);}
+  const total=rows=>rows.reduce((n,e)=>n+slotMinutes(e),0),leftMinutes=total(left),rightMinutes=total(right);
+  if(!left.length||!right.length)errors.push('양쪽에서 맞바꿀 수업 슬롯을 선택하세요.');
+  if(leftMinutes!==rightMinutes)errors.push(`수업 총량이 ${Math.abs(leftMinutes-rightMinutes)}분 다릅니다. ${leftMinutes>rightMinutes?'오른쪽 대상 수업':'왼쪽 변경할 수업'}에 추가 수업을 불러오세요.`);
+  const rows=[],used=new Set();
+  if(!errors.length)for(const [destinations,sources] of [[left,right],[right,left]])for(const dest of destinations){
+    const source=sources.find(e=>e.id===assignments.get(dest.id));
+    if(!source){errors.push('배치할 수업이 지정되지 않은 슬롯이 있습니다.');continue;}
+    if(used.has(source.id))errors.push('한 수업 슬롯을 두 번 배치할 수 없습니다.');used.add(source.id);
+    if(slotMinutes(dest)!==slotMinutes(source))errors.push('교시 길이가 다릅니다. 같은 수업시간 길이의 슬롯끼리 배치하세요.');
+    const after={...dest};for(const k of lessonFields)after[k]=source[k]||'';
+    rows.push({before:structuredClone(dest),after});
+  }
+  if(!errors.length&&used.size!==all.length)errors.push('빠진 수업 슬롯이 있습니다. 추가 수업까지 모두 배치하세요.');
+  return {rows,errors:[...new Set(errors)],leftMinutes,rightMinutes};
+}
 function changePlanner(seed){
+  if(IS_STUDENT)return;
+  const base=JSON.stringify(state.events),blocks=merged(state.events),baskets={left:new Map(),right:new Map()},assignments=new Map();
+  const chosen=side=>[...baskets[side].values()];
+  const sorted=side=>chosen(side).sort((a,b)=>slotKey(a).localeCompare(slotKey(b)));
+  const label=e=>`${formatDate(e.date)} ${e.group} ${e.period}교시 ${time(e.period)} / ${e.title} / ${e.teacher||'강사 미정'}`;
+  const sideName=side=>side==='left'?'변경할 수업':'맞바꿀 대상 수업';
+  show(`<h3>수업 선택 · 시간 총량 맞교환</h3><p>양쪽 수업의 교시를 선택하세요. 시간이 같으면 자동으로 맞교환안을 만들고, 다르면 부족한 쪽에 추가 수업을 불러와 연쇄 교환합니다.</p><button id="exchange-manual">강사만 변경 / 직접 슬롯 편집</button>${!token?'<p class="readonly">미리보기입니다. 기록·공유 저장은 관리자 연결 후 가능합니다.</p>':''}<div class="exchange-sides">${['left','right'].map(side=>`<section class="exchange-side"><h4>${sideName(side)}</h4><label>교수·강사<select id="exchange-${side}-teacher"><option value="">전체 강사</option>${opts(unique('teacher'),side==='left'?seed?.teacher:'')}</select></label><label>과목<select id="exchange-${side}-subject"><option value="">전체 과목</option>${opts(unique('subject'),side==='left'?seed?.subject:'')}</select></label><label>수업 일정<select id="exchange-${side}-block"></select></label><div id="exchange-${side}-periods" class="exchange-periods"></div><button id="exchange-${side}-add">선택 교시 추가 / 추가 수업 불러오기</button><div id="exchange-${side}-basket"></div></section>`).join('')}</div><div id="exchange-balance" role="status" aria-live="polite"></div><div id="exchange-affected"></div><div id="exchange-starts"></div><div id="exchange-preview"></div><div id="exchange-check" role="status" aria-live="polite"></div><form id="exchange-form"><label>변경 사유<input id="exchange-reason" required></label><label><input id="exchange-hours" type="checkbox"> 반별 과목 시수 증감을 확인했습니다</label><label><input id="exchange-notify" type="checkbox" checked> 학생 공지에 변경 전후 함께 기록</label><button class="primary" id="exchange-apply" disabled>맞교환안 일괄 기록</button></form>`);
+  $('modal').classList.add('plan-dialog');
+  $('exchange-manual').onclick=()=>manualPlanner(seed);
+  function pickPeriods(side){
+    const value=$(`exchange-${side}-block`).value,b=value===''?null:blocks[Number(value)];
+    $(`exchange-${side}-periods`).innerHTML=b?b.ids.map(id=>{const e=state.events.find(x=>x.id===id);return `<label><input type="checkbox" data-exchange-pick="${side}" value="${esc(id)}" checked> ${e.period}교시 <small>${esc(time(e.period))} · ${slotMinutes(e)}분</small></label>`;}).join(''):'<p>조건에 맞는 수업이 없습니다.</p>';
+  }
+  function pickList(side){
+    const teacher=$(`exchange-${side}-teacher`).value,subject=$(`exchange-${side}-subject`).value;
+    const list=blocks.map((e,i)=>({e,i})).filter(({e})=>(!teacher||e.teacher===teacher)&&(!subject||e.subject===subject));
+    $(`exchange-${side}-block`).innerHTML=list.map(({e,i})=>`<option value="${i}">${esc(formatDate(e.date)+' '+e.group+' '+e.period+'~'+e.last+'교시 / '+e.title+' / '+e.teacher)}</option>`).join('');
+    if(side==='left'&&seed){const selected=list.find(x=>x.e.ids.includes(seed.id));if(selected)$(`exchange-${side}-block`).value=String(selected.i);}pickPeriods(side);
+  }
+  function autoAssign(){
+    assignments.clear();const left=sorted('left'),right=sorted('right');
+    if(left.reduce((n,e)=>n+slotMinutes(e),0)!==right.reduce((n,e)=>n+slotMinutes(e),0))return;
+    for(const [destinations,sources] of [[left,chosen('right')],[right,chosen('left')]]){const available=[...sources];for(const d of destinations){const index=available.findIndex(e=>slotMinutes(e)===slotMinutes(d));if(index>=0)assignments.set(d.id,available.splice(index,1)[0].id);}}
+  }
+  function check(){
+    const plan=exchangeRows(sorted('left'),sorted('right'),assignments),result=validatePlan(plan.rows),errors=[...plan.errors,...result.errors],changed=plan.rows.filter(r=>!sameLesson(r.before,r.after));
+    $('exchange-check').innerHTML=`<h4>교차 검증 · ${changed.length}개 슬롯 변경</h4>${errors.length?`<ul class="plan-errors">${errors.map(e=>`<li>${esc(e)}</li>`).join('')}</ul>`:'<p class="plan-ok">모든 수업 시간 총량 유지 · 새 반·강사·강의실 중복 없음</p>'}${result.hours.length?`<p>반별 과목 시수 변화</p><ul>${result.hours.map(h=>`<li>${esc(h)}</li>`).join('')}</ul>`:''}${result.existing?`<p class="muted">기존 중복 ${result.existing}건은 유지됩니다.</p>`:''}`;
+    $('exchange-apply').disabled=!token||!changed.length||!!errors.length||(result.hours.length&&!$('exchange-hours').checked);
+    return {...result,changed,errors};
+  }
+  function preview(){
+    const left=sorted('left'),right=sorted('right'),plan=exchangeRows(left,right,assignments);
+    $('exchange-preview').innerHTML=plan.errors.length?'':`<h4>현재 → 변경 · 각 교시에 들어갈 수업</h4><p class="muted">시작 위치를 바꾸거나 각 교시의 수업을 골라 배치하세요. 다른 교시에 이미 배치된 수업을 고르면 두 교시의 배치가 서로 바뀝니다.</p>${[['left',left,chosen('right')],['right',right,chosen('left')]].map(([side,dests,sources])=>`<section><h4>${sideName(side)} 자리</h4>${dests.map(e=>{const source=sources.find(s=>s.id===assignments.get(e.id));return `<div class="exchange-row"><div><b>${esc(formatDate(e.date)+' '+e.group+' '+e.period+'교시 · '+time(e.period))}</b><p>현재: ${esc(e.title+' / '+e.teacher+' / '+e.room)}</p></div><label>변경: 배치할 수업<select data-exchange-dest="${esc(e.id)}" data-exchange-side="${side}">${sources.map(s=>`<option value="${esc(s.id)}" ${source?.id===s.id?'selected':''}>${esc(s.title+' / '+s.teacher+' / 원래 '+s.date+' '+s.period+'교시')}</option>`).join('')}</select><small>${source?esc('변경 강의실: '+source.room):''}</small></label></div>`;}).join('')}</section>`).join('')}`;
+    document.querySelectorAll('[data-exchange-dest]').forEach(select=>select.onchange=()=>{const dest=select.dataset.exchangeDest,old=assignments.get(dest),other=[...assignments].find(([d,s])=>d!==dest&&s===select.value);assignments.set(dest,select.value);if(other)assignments.set(other[0],old);$('exchange-hours').checked=false;preview();});
+    for(const select of document.querySelectorAll('[data-exchange-start]')){const first=chosen(select.dataset.exchangeStart)[0],dest=[...assignments].find(([,id])=>id===first?.id);if(dest)select.value=dest[0];}check();
+  }
+  function draw(){
+    $('exchange-hours').checked=false;
+    for(const side of ['left','right'])$(`exchange-${side}-basket`).innerHTML=sorted(side).map(e=>`<div class="exchange-chip"><span>${esc(label(e))}</span><button type="button" data-exchange-remove="${esc(e.id)}" data-side="${side}">제외</button></div>`).join('')||'<p class="muted">선택한 슬롯 없음</p>';
+    document.querySelectorAll('[data-exchange-remove]').forEach(b=>b.onclick=()=>{baskets[b.dataset.side].delete(b.dataset.exchangeRemove);autoAssign();draw();});
+    const plan=exchangeRows(sorted('left'),sorted('right'),assignments),delta=plan.leftMinutes-plan.rightMinutes;
+    $('exchange-balance').innerHTML=`<b>변경할 수업 ${plan.leftMinutes}분 (${sorted('left').length}교시) ↔ 대상 수업 ${plan.rightMinutes}분 (${sorted('right').length}교시)</b><p>${delta?`${delta>0?'대상 수업 쪽':'변경할 수업 쪽'}에 ${Math.abs(delta)}분의 수업을 추가하세요. 추가된 수업의 원래 자리까지 함께 맞바꿉니다.`:plan.leftMinutes?'시간 총량 일치 · 맞교환안 자동 구성':'양쪽에서 수업을 선택하세요.'}</p>`;
+    const shorter=delta>0?'right':'left',shortSlots=sorted(shorter),anchor=shortSlots.at(-1),selected=new Set([...baskets.left.keys(),...baskets.right.keys()]);
+    const nearby=anchor?state.events.filter(e=>e.date===anchor.date&&e.group===anchor.group&&e.period>anchor.period&&!selected.has(e.id)).sort((a,b)=>a.period-b.period):[];
+    let needed=Math.abs(delta);const affected=[];for(const e of nearby){if(needed<=0)break;affected.push(e);needed-=slotMinutes(e);}
+    $('exchange-affected').innerHTML=delta?`<section class="exchange-impact"><h4>추가로 영향을 받는 수업 · ${sideName(shorter)}</h4><p>뒤 교시로 이어 배치하면 아래 수업이 영향을 받습니다. 필요한 교시만 추가하거나 위에서 다른 수업을 선택하세요.</p>${affected.map(e=>`<button type="button" data-exchange-extra="${esc(e.id)}" data-side="${shorter}">${esc(label(e))} · ${slotMinutes(e)}분 추가</button>`).join('')}${needed>0?'<p>같은 날 뒤 교시가 부족합니다. 위에서 다른 날짜의 추가 수업을 선택하세요.</p>':''}</section>`:'';
+    document.querySelectorAll('[data-exchange-extra]').forEach(b=>b.onclick=()=>{const e=state.events.find(e=>e.id===b.dataset.exchangeExtra);baskets[b.dataset.side].set(e.id,e);autoAssign();draw();});
+    $('exchange-starts').innerHTML=!delta&&plan.leftMinutes?`<div class="exchange-sides">${[['left','right'],['right','left']].map(([source,dest])=>`<label>${sideName(source)}의 첫 교시를 배치할 시작 슬롯<select data-exchange-start="${source}">${sorted(dest).map(e=>`<option value="${esc(e.id)}">${esc(formatDate(e.date)+' '+e.group+' '+e.period+'교시 · '+time(e.period))}</option>`).join('')}</select><small>나머지 교시는 순서대로 배치합니다. 남는 1시간의 위치는 아래 교시별 선택으로 조정할 수 있습니다.</small></label>`).join('')}</div>`:'';
+    document.querySelectorAll('[data-exchange-start]').forEach(select=>select.onchange=()=>{const side=select.dataset.exchangeStart,sources=chosen(side),destinations=sorted(side==='left'?'right':'left'),start=destinations.findIndex(e=>e.id===select.value);for(let i=0;i<sources.length;i++){const dest=destinations[(start+i)%destinations.length];if(dest)assignments.set(dest.id,sources[i].id);}$('exchange-hours').checked=false;preview();});preview();
+  }
+  for(const side of ['left','right']){
+    $(`exchange-${side}-teacher`).onchange=()=>pickList(side);$(`exchange-${side}-subject`).onchange=()=>pickList(side);$(`exchange-${side}-block`).onchange=()=>pickPeriods(side);pickList(side);
+    $(`exchange-${side}-add`).onclick=()=>{for(const input of document.querySelectorAll(`[data-exchange-pick="${side}"]:checked`)){const e=state.events.find(e=>e.id===input.value);if(baskets[side==='left'?'right':'left'].has(e.id)){$('exchange-check').textContent='반대쪽에 이미 선택된 슬롯입니다. 먼저 제외하세요.';return;}}
+      for(const input of document.querySelectorAll(`[data-exchange-pick="${side}"]:checked`)){const e=state.events.find(e=>e.id===input.value);baskets[side].set(e.id,e);}autoAssign();draw();};
+  }
+  $('exchange-hours').onchange=check;
+  $('exchange-form').onsubmit=ev=>{
+    ev.preventDefault();if(!token)return;if(JSON.stringify(state.events)!==base)return $('exchange-check').textContent='시간표가 갱신되었습니다. 변경 창을 다시 열어 주세요.';
+    const result=check(),reason=$('exchange-reason').value.trim();if(result.errors.length||!result.changed.length||!reason||(result.hours.length&&!$('exchange-hours').checked))return;
+    const batchId=crypto.randomUUID();for(const r of result.changed){log('수업 시간 총량 맞교환',r.before,r.after,reason);state.history.at(-1).batchId=batchId;}
+    state.events=result.events;
+    if($('exchange-notify').checked)for(const g of new Set(result.changed.map(r=>r.after.group)))addNotice(g,'수업 맞교환 안내',result.changed.filter(r=>r.after.group===g).map(r=>`${formatDate(r.after.date)} ${r.after.period}교시 ${time(r.after.period)}\n현재: ${r.before.title} / ${r.before.teacher} / ${r.before.room}\n변경: ${r.after.title} / ${r.after.teacher} / ${r.after.room}`).join('\n\n')+'\n\n사유: '+reason);
+    setDirty();$('modal').close();render();msg(`${result.changed.length}개 슬롯의 시간 총량과 충돌을 검증해 맞교환을 기록했습니다. 공유 저장하면 배포됩니다.`);
+  };
+  if(seed){const b=blocks.find(b=>b.ids.includes(seed.id));for(const id of b?.ids||[])baskets.left.set(id,state.events.find(e=>e.id===id));}draw();
+}
+function manualPlanner(seed){
   if(IS_STUDENT)return;
   const base=JSON.stringify(state.events),draft=new Map();
   const add=e=>{const key=slotKey(e);if(!draft.has(key)){const before=state.events.find(x=>slotKey(x)===key)||null;draft.set(key,{before:before&&structuredClone(before),after:before?structuredClone(before):{id:'new-'+crypto.randomUUID(),date:e.date,group:e.group,period:e.period,subject:'',title:'',teacher:'',room:''}});}return draft.get(key);};
