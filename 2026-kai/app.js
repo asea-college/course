@@ -13,8 +13,33 @@ function rangeLabel(){return rangeEnabled?formatDate(rangeStart)+' ~ '+formatDat
 function monthKeys(){if(!rangeEnabled)return [month];const out=[];let y=+rangeStart.slice(0,4),m=+rangeStart.slice(5,7);const last=rangeEnd.slice(0,7);while(true){const key=y+'-'+String(m).padStart(2,'0');if(key>last)break;out.push(key);if(++m>12){m=1;y++;}}return out;}
 function rangeControls(){return `<form id="range-form" class="range-controls"><label>시작일<input id="range-start" type="date" value="${rangeStart}" required></label><span>~</span><label>종료일<input id="range-end" type="date" value="${rangeEnd}" required></label><button class="${rangeEnabled?'primary':''}">기간 조회</button>${rangeEnabled?'<button type="button" id="range-reset">기간 해제</button>':''}</form>${rangeEnabled?`<div class="range-summary">조회 기간: ${esc(rangeLabel())}</div>`:''}`;}
 const menus={all:'통합 일정',class:'반별 시간표',person:'개인별 일정',room:'강의실별 일정',history:'변경 이력',notices:'학생 공지',share:'학생 배포·구독',settings:'교시·공유 설정'};
-function completed(message){msg(message);window.alert(message);}
-function msg(s){$('message').textContent=s}function setDirty(){dirty=true;$('dirty').textContent='미공유 수정 있음 · 공유 저장 필요';$('publish').disabled=!CAN_EDIT||busy;window.onbeforeunload=()=>dirty?true:undefined}
+function completed(message){if(dirty&&CAN_EDIT){publish();return;}msg(message);window.alert(message);}
+const DRAFT_KEY='kai-2026-unsaved-v1',CACHE_KEY='kai-2026-shared-'+(STUDENT||'all');
+let changeSerial=0,saveTimer=null,offline=false;
+function msg(s){$('message').textContent=s;}
+function equalData(a,b){const sorted=value=>Array.isArray(value)?value.map(sorted):value&&typeof value==='object'?Object.fromEntries(Object.keys(value).sort().map(key=>[key,sorted(value[key])])):value;return JSON.stringify(sorted(a))===JSON.stringify(sorted(b));}
+function keepDraft(){try{if(dirty)localStorage.setItem(DRAFT_KEY,JSON.stringify({base:original,next:state,at:new Date().toISOString()}));else localStorage.removeItem(DRAFT_KEY);}catch{}}
+function setDirty(){
+  dirty=true;changeSerial++;keepDraft();$('dirty').textContent='변경사항 자동 저장 중…';$('publish').disabled=busy;window.onbeforeunload=()=>dirty?true:undefined;
+  clearTimeout(saveTimer);saveTimer=setTimeout(()=>publish(),120);
+}
+function mergeShared(base,mine,remote){
+  const out=structuredClone(remote);
+  for(const key of ['events','notices']){
+    const before=new Map(base[key].map(e=>[e.id,e])),local=new Map(mine[key].map(e=>[e.id,e])),shared=new Map(remote[key].map(e=>[e.id,e]));
+    for(const id of new Set([...before.keys(),...local.keys()])){
+      const b=before.get(id),m=local.get(id),r=shared.get(id);if(equalData(b,m))continue;
+      if(!equalData(b,r)&&!equalData(m,r))throw new Error('다른 단말에서 같은 수업 또는 공지를 수정했습니다. 이 단말의 수정본은 보관했습니다.');
+      if(m)shared.set(id,structuredClone(m));else shared.delete(id);
+    }out[key]=[...shared.values()];
+  }
+  if(!equalData(base.times,mine.times)){if(!equalData(base.times,remote.times)&&!equalData(mine.times,remote.times))throw new Error('다른 단말에서 교시 시간을 변경했습니다. 수정본은 이 단말에 보관했습니다.');out.times=structuredClone(mine.times);}
+  const ids=new Set(remote.history.map(h=>h.id)),baseIds=new Set(base.history.map(h=>h.id));
+  out.history=[...remote.history,...mine.history.filter(h=>!baseIds.has(h.id)&&!ids.has(h.id))];
+  return out;
+}
+function sameSchedule(a,b){return ['events','times','history','notices'].every(key=>equalData(a[key],b[key]));}
+function draftBackup(){let draft;try{draft=JSON.parse(localStorage.getItem(DRAFT_KEY));}catch{}if(!draft)return msg('보관된 미저장 수정본이 없습니다.');const url=URL.createObjectURL(new Blob([JSON.stringify(draft.next,null,2)],{type:'application/json'})),a=document.createElement('a');a.href=url;a.download='KAI-미저장-수정본.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),10000);}
 function opts(values,current){return values.map(x=>`<option value="${esc(x)}" ${x===current?'selected':''}>${esc(x)}</option>`).join('')}
 function teacherName(name){const value=String(name||'').trim();if(value.toUpperCase()==='KAI')return 'KAI';return value?value.replace(/\s*(?:교수님|교수)$/,'')+' 교수님':'담당 교수님 미정';}
 function personalTeachers(){return unique('teacher').filter(name=>name.trim().toUpperCase()!=='KAI');}
@@ -40,7 +65,7 @@ function historySummary(entries,key){
 }
 function historyView(){
   const batches=historyBatches(),restored=new Set(state.history.map(h=>h.restoresBatchId).filter(Boolean));
-  return batches.length?batches.reverse().map(({id,entries})=>{const first=entries[0];return '<section class="history history-card"><div class="history-card-head"><span class="tag">'+esc(first.kind)+' · '+esc(new Date(first.at).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'}))+'</span>'+(restored.has(id)?'<span class="tag">복원 이력 있음</span>':'')+'</div><p>'+esc(first.author)+' · '+esc(first.reason)+'</p><div class="compare"><div><h4>변경 전</h4>'+historySummary(entries,'before')+'</div><div><h4>변경 후</h4>'+historySummary(entries,'after')+'</div></div>'+(CAN_EDIT?'<div class="actions"><button class="primary" data-history-restore="'+esc(id)+'">기존 일정대로 복원</button><small>이 작업 전체를 변경 전으로 되돌립니다. 복원 후 공유 저장하세요.</small></div>':'')+'</section>';}).join(''):'<p class="noresult">아직 변경 이력이 없습니다. 일정 변경을 저장하면 기록됩니다.</p>';
+  return batches.length?batches.reverse().map(({id,entries})=>{const first=entries[0];return '<section class="history history-card"><div class="history-card-head"><span class="tag">'+esc(first.kind)+' · '+esc(new Date(first.at).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'}))+'</span>'+(restored.has(id)?'<span class="tag">복원 이력 있음</span>':'')+'</div><p>'+esc(first.author)+' · '+esc(first.reason)+'</p><div class="compare"><div><h4>변경 전</h4>'+historySummary(entries,'before')+'</div><div><h4>변경 후</h4>'+historySummary(entries,'after')+'</div></div>'+(CAN_EDIT?'<div class="actions"><button class="primary" data-history-restore="'+esc(id)+'">기존 일정대로 복원</button><small>이 작업 전체를 변경 전으로 되돌립니다. 복원하면 자동 저장됩니다.</small></div>':'')+'</section>';}).join(''):'<p class="noresult">아직 변경 이력이 없습니다. 일정 변경을 저장하면 기록됩니다.</p>';
 }
 function planHistoryRestore(key){
   const batch=historyBatches().find(b=>b.id===key);if(!batch)return {errors:['복원할 변경 이력을 찾지 못했습니다.']};
@@ -67,12 +92,12 @@ function restoreHistory(key){
   const groups=new Set(result.changes.flatMap(c=>[c.before?.group,c.after?.group]).filter(Boolean));
   for(const g of groups){const restored=merged(result.changes.map(c=>c.after).filter(e=>e?.group===g)),removed=merged(result.changes.filter(c=>c.before?.group===g&&!c.after).map(c=>c.before));addNotice(g,'수업 일정 복원 안내',reason+'\n'+restored.map(e=>formatDate(e.date)+' '+periodText(e)+' / '+e.title+' / '+teacherName(e.teacher)+' / '+e.room).join('\n')+(removed.length?'\n추가 일정 취소: '+removed.map(e=>formatDate(e.date)+' '+periodText(e)+' '+e.title).join(', '):''));}
   if(result.changes.some(c=>c.after?.times))addNotice('전체','교시 시간 복원 안내',reason);
-  setDirty();render();msg('변경 작업 한 건을 기존 일정대로 복원했습니다. 수정·공지 공유 저장을 누르면 모두에게 반영됩니다.');
+  setDirty();render();msg('변경 작업 한 건을 기존 일정대로 복원했습니다. 자동 저장 후 모든 단말에 반영됩니다.');
 }
 function snapshot(e){if(!e)return '없음';if(e.times)return Object.entries(e.times).map(([n,t])=>`${n}교시 ${t.join('~')}`).join(' / ');return esc(`${formatDate(e.date)||''} ${e.group||''} ${e.period||''}교시 / ${e.title||''} / ${teacherName(e.teacher)} / ${e.room||''}`)}
 function studentView(){const rows=state.events.filter(e=>e.date===day);return `${rangeControls()}<div class="actions"><input type="date" id="day" value="${day}" aria-label="조회 날짜"><button id="student-month">${layout==='month'?'일별 보기':'월간 보기'}</button><span class="readonly">${STUDENT} · 조회 전용</span></div>${noticesView()}${layout==='month'?monthView():rangeEnabled?reportHTML(selected(),STUDENT+' 기간별 시간표'):`<section class="daily"><h3>${formatDate(day)} · ${STUDENT}</h3>${merged(rows).map(lesson).join('')||'<p>이 날짜의 수업이 없습니다.</p>'}</section>`}`}
 function sharing(){return `<section class="paper"><h3>학생 반별 링크</h3><p>로그인 없이 해당 반 일정·공개 공지만 표시합니다. 링크를 아는 사람은 조회할 수 있습니다.</p><div class="links">${['a','b'].map(g=>`<div><b>${g.toUpperCase()}반</b><br><a href="${g}.html" target="_blank">${BASE+g+'.html'}</a><div class="actions"><button data-copy="${BASE+g+'.html'}">링크 복사</button><button data-qr="${BASE+g+'.html'}">QR 보기</button></div></div>`).join('')}</div></section><section class="paper"><h3>2026 직업계고 카이과정 · 캘린더 구독</h3><p>Google 캘린더의 ‘다른 캘린더 → URL로 추가’에 아래 주소를 붙여 넣으세요. 파일 가져오기 대신 URL 구독을 해야 갱신됩니다.</p>${['all','a','b'].map(g=>`<p>${g==='all'?'통합':g.toUpperCase()+'반'}: <a href="${calendarFeed(g)}">${calendarFeed(g)}</a> <button data-copy="${calendarFeed(g)}">복사</button></p>`).join('')}<a href="https://calendar.google.com/calendar/u/0/r/settings/addbyurl" target="_blank" rel="noopener">Google 캘린더 URL 구독 설정 열기</a><p class="muted">새 구독 주소는 공유 저장 즉시 최신 자료를 제공합니다. 이전 github.io의 .ics 주소로 구독했다면 위 주소로 다시 등록해 주세요. 웹사이트 → 구독 캘린더 단방향 갱신입니다. Google의 재조회 주기에 따라 반영이 지연될 수 있습니다. Google 캘린더에서 수정한 내용은 웹사이트로 가져오지 않습니다.</p></section>`}
-function settings(){return '<section class="paper"><h3>교시별 수업 시간</h3><form id="timesform"><div class="timegrid">'+[1,2,3,4,5,6,7,8].map(n=>'<label>'+n+'교시 '+(n===4?'(점심시간)':'')+'<div><input type="time" name="s'+n+'" value="'+state.times[n][0]+'" required> ~ <input type="time" name="e'+n+'" value="'+state.times[n][1]+'" required></div></label>').join('')+'</div><p><input name="reason" placeholder="변경 사유" required></p><button>시간 변경 기록</button></form></section><section class="paper"><h3>링크로 함께 수정하기</h3><p>이 시간표 링크를 가진 누구나 로그인 없이 수정할 수 있습니다. 변경 후 왼쪽의 수정·공지 공유 저장을 누르면 모든 사람에게 반영됩니다.</p><button id="backup">현재 수정본 JSON 백업</button><p class="muted">다른 사람이 먼저 저장하면 덮어쓰지 않고 알려 드립니다. 저장한 버전은 공유 저장소에 보관됩니다.</p></section>';}
+function settings(){return '<section class="paper"><h3>교시별 수업 시간</h3><form id="timesform"><div class="timegrid">'+[1,2,3,4,5,6,7,8].map(n=>'<label>'+n+'교시 '+(n===4?'(점심시간)':'')+'<div><input type="time" name="s'+n+'" value="'+state.times[n][0]+'" required> ~ <input type="time" name="e'+n+'" value="'+state.times[n][1]+'" required></div></label>').join('')+'</div><p><input name="reason" placeholder="변경 사유" required></p><button>시간 변경 기록</button></form></section><section class="paper"><h3>링크로 함께 수정하기</h3><p>이 시간표 링크를 가진 누구나 로그인 없이 수정할 수 있습니다. 변경하면 자동 저장되어 모든 사람에게 반영됩니다.</p><button id="backup">현재 수정본 JSON 백업</button><p class="muted">다른 사람이 먼저 저장하면 덮어쓰지 않고 알려 드립니다. 저장한 버전은 공유 저장소에 보관됩니다.</p></section>';}
 function todaySummary(){
   const date=new Date().toLocaleDateString('sv-SE',{timeZone:'Asia/Seoul'});
   return '<section class="today-summary"><div class="today-heading"><b>오늘의 일정</b><small>'+esc(formatDate(date))+'</small></div>'+['A반','B반'].map(g=>'<div class="today-class"><b>'+g+'</b><div class="today-items">'+(merged(state.events.filter(e=>e.date===date&&e.group===g)).map(e=>'<div class="today-item" title="'+esc(e.subject+' / '+e.title+' / '+teacherName(e.teacher)+' / '+periodText(e))+'"><small>'+(e.period===e.last?e.period:e.period+'~'+e.last)+'교시</small><span class="today-course">'+esc(e.subject+(e.title!==e.subject?' · '+e.title:''))+'</span><b>'+esc(teacherName(e.teacher))+'</b></div>').join('')||'<small>오늘 수업 없음</small>')+'</div></div>').join('')+'</section>';
@@ -190,7 +215,7 @@ function changePlanner(seed){
     });
     $('exchange-check').innerHTML=`<h4>교차 검증 · ${blocks.filter(b=>b.ids.some(id=>changed.some(r=>assignments.get(r.after.id)===id))).length}개 수업 묶음 변경</h4>${errors.length?`<ul class="plan-errors">${errors.map(e=>`<li>${esc(e)}</li>`).join('')}</ul>`:'<p class="plan-ok">모든 수업 시간 총량 유지 · 새 반·교수님·강의실 중복 없음</p>'}${result.hours.length?`<p>반별 과목 시수 변화</p><ul>${result.hours.map(h=>`<li>${esc(h)}</li>`).join('')}</ul>`:''}${result.existing?`<p class="muted">기존 중복 ${result.existing}건은 유지됩니다.</p>`:''}`;
     $('exchange-apply').disabled=!CAN_EDIT||!changed.length||!!errors.length||(result.hours.length&&!$('exchange-hours').checked);
-    $('exchange-action-hint').textContent=!CAN_EDIT?'학생 화면은 조회 전용입니다.':errors.length?'양쪽 수업을 추가하고 위 검증 항목을 해결하면 기록할 수 있습니다.':!changed.length?'기록할 변경사항이 없습니다.':result.hours.length&&!$('exchange-hours').checked?'반별 과목 시수 증감을 확인해 주세요.':'검증을 통과했습니다. 변경 사유를 입력하고 변경하기를 누르세요. 학생 화면 반영은 왼쪽의 수정·공지 공유 저장을 눌러야 합니다.';
+    $('exchange-action-hint').textContent=!CAN_EDIT?'학생 화면은 조회 전용입니다.':errors.length?'양쪽 수업을 추가하고 위 검증 항목을 해결하면 기록할 수 있습니다.':!changed.length?'기록할 변경사항이 없습니다.':result.hours.length&&!$('exchange-hours').checked?'반별 과목 시수 증감을 확인해 주세요.':'검증을 통과했습니다. 변경 사유를 입력하고 변경하기를 누르세요. 변경 즉시 자동 저장되며 모든 단말에 반영됩니다.';
     return {...result,changed,errors};
   }
   function preview(){
@@ -301,19 +326,37 @@ function manualPlanner(seed){
 }
 function log(kind,before,after,reason){state.history.push({id:crypto.randomUUID(),kind,before:structuredClone(before),after:structuredClone(after),reason,at:new Date().toISOString(),author:actor})}
 function addNotice(group,title,body){state.notices.push({id:crypto.randomUUID(),group,title,body,published:true,author:actor,createdAt:new Date().toISOString()})}
-function noticeEditor(){show('<h3>학생 공지 작성</h3><form id="noticeform"><label>대상<select name="group"><option>전체</option><option>A반</option><option>B반</option></select></label><label>제목<input name="title" required></label><label>공지 내용<textarea name="body" required></textarea></label><button class="primary">공개 공지로 기록</button></form>');$('noticeform').onsubmit=e=>{e.preventDefault();const f=new FormData(e.target);addNotice(f.get('group'),f.get('title'),f.get('body'));setDirty();$('modal').close();render();msg('공지 초안을 기록했습니다. 공유 저장 후 학생 링크에서 확인할 수 있습니다.')}}
+function noticeEditor(){show('<h3>학생 공지 작성</h3><form id="noticeform"><label>대상<select name="group"><option>전체</option><option>A반</option><option>B반</option></select></label><label>제목<input name="title" required></label><label>공지 내용<textarea name="body" required></textarea></label><button class="primary">공개 공지로 기록</button></form>');$('noticeform').onsubmit=e=>{e.preventDefault();const f=new FormData(e.target);addNotice(f.get('group'),f.get('title'),f.get('body'));setDirty();$('modal').close();render();msg('공지 초안을 기록했습니다. 자동 저장 후 학생 링크에도 반영됩니다.')}}
 function ical(data,which='all'){const clean=s=>String(s??'').replace(/\\/g,'\\\\').replace(/\n/g,'\\n').replace(/,/g,'\\,').replace(/;/g,'\\;'),stamp=(data.updatedAt||new Date().toISOString()).replace(/[-:]/g,'').replace(/\.\d+Z/,'Z'),rows=data.events.filter(e=>which==='all'||e.group===(which==='a'?'A반':'B반'));const lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//ASEA COLLEGE//KAI 2026//KO','CALSCALE:GREGORIAN','METHOD:PUBLISH','X-WR-CALNAME:'+clean('2026 직업계고 카이과정'+(which==='all'?'':' '+which.toUpperCase()+'반')),'X-WR-TIMEZONE:Asia/Seoul'];for(const e of rows){const t=data.times[e.period],d=e.date.replaceAll('-',''),uid=e.id.replace('A반','a').replace('B반','b');lines.push('BEGIN:VEVENT','UID:'+uid+'@asea-college.github.io','DTSTAMP:'+stamp,'SEQUENCE:'+data.revision,'DTSTART;TZID=Asia/Seoul:'+d+'T'+t[0].replace(':','')+'00','DTEND;TZID=Asia/Seoul:'+d+'T'+t[1].replace(':','')+'00','SUMMARY:'+clean(`[${e.group}] ${e.title}`),'LOCATION:'+clean(e.room),'DESCRIPTION:'+clean(`${e.period}교시 / 교수님: ${teacherName(e.teacher)}\n${e.subject}\n${BASE+(e.group==='A반'?'a':'b')+'.html'}`),'END:VEVENT')}lines.push('END:VCALENDAR');return lines.map(line=>{let out='',length=0;for(const char of line){const bytes=new TextEncoder().encode(char).length;if(length+bytes>73){out+='\r\n ';length=1}out+=char;length+=bytes}return out}).join('\r\n')+'\r\n'}
 async function readShared(){
-  const r=await fetch(SHARED_API+'?class='+(IS_STUDENT?(STUDENT==='A반'?'a':'b'):'all'),{cache:'no-store'}),data=await r.json();if(!r.ok)throw new Error(data.error||'공유 시간표를 불러오지 못했습니다.');return data;
+  const r=await fetch(SHARED_API+'?class='+(IS_STUDENT?(STUDENT==='A반'?'a':'b'):'all')+'&v='+Date.now(),{cache:'no-store'}),data=await r.json();if(!r.ok)throw new Error(data.error||'공유 시간표를 불러오지 못했습니다.');try{localStorage.setItem(CACHE_KEY,JSON.stringify(data));}catch{}offline=false;return data;
 }
 async function publish(){
-  if(!CAN_EDIT||busy)return;if(!dirty)return msg('공유할 변경사항이 없습니다.');
-  busy=true;$('publish').disabled=true;msg('공유 시간표를 저장하고 있습니다…');
+  if(!CAN_EDIT||busy)return;if(!dirty)return msg('모든 변경사항이 저장되어 있습니다.');
+  clearTimeout(saveTimer);busy=true;$('publish').disabled=true;msg('Supabase에 변경사항을 저장하고 있습니다…');
   try{
-    const r=await fetch(SHARED_API,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({baseRevision:original.revision,next:state})}),next=await r.json();
-    if(!r.ok)throw new Error(next.error||'공유 저장에 실패했습니다.');
-    state=next;original=structuredClone(next);dirty=false;window.onbeforeunload=null;$('dirty').textContent='공유판 v'+state.revision+' · 저장됨';render();completed('공유 저장이 완료되었습니다.\n변경된 일정이 다른 사람과 학생 화면에도 반영되었습니다.');
-  }catch(err){msg('저장 실패: '+err.message);}finally{busy=false;$('publish').disabled=!dirty;}
+    while(dirty){
+      const sent=structuredClone(state),base=structuredClone(original),serial=changeSerial;
+      let r=await fetch(SHARED_API,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({baseRevision:base.revision,next:sent})}),next=await r.json();
+      if(r.status===409){
+        const remote=await readShared(),merged=mergeShared(base,sent,remote);
+        if(sameSchedule(merged,remote)){next=remote;r={ok:true};}
+        else{r=await fetch(SHARED_API,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({baseRevision:remote.revision,next:merged})});next=await r.json();}
+      }
+      if(!r.ok)throw new Error(next.error||'공유 저장에 실패했습니다.');
+      if(serial===changeSerial){state=next;dirty=false;}else{state=mergeShared(sent,state,next);dirty=true;}
+      original=structuredClone(next);keepDraft();try{localStorage.setItem(CACHE_KEY,JSON.stringify(next));}catch{}
+    }
+    window.onbeforeunload=null;$('dirty').textContent='공유판 v'+state.revision+' · 모든 변경 저장됨';$('draft-backup').hidden=true;render();completed('변경사항이 저장되었습니다.\n시간표와 누적 이력이 다른 단말에서도 동일하게 표시됩니다.');
+  }catch(err){
+    keepDraft();$('dirty').textContent='저장되지 않음 · 이 단말에 수정본 보관';$('draft-backup').hidden=false;
+    msg('저장 실패: '+err.message+' 연결 후 다시 저장을 눌러 주세요. 창을 다시 열면 보관한 수정본을 복구합니다.');
+  }finally{busy=false;$('publish').disabled=!dirty;}
+}
+async function syncShared(){
+  if(!state||busy||document.hidden)return;
+  if(dirty){publish();return;}
+  try{const next=await readShared();if(next.revision>state.revision){state=next;original=structuredClone(next);if(!IS_STUDENT)$('dirty').textContent='공유판 v'+state.revision+' · 모든 변경 저장됨';render();msg('다른 단말의 최신 일정과 누적 이력을 반영했습니다.');}}catch{}
 }
 function printContext(){
   const scope=IS_STUDENT?STUDENT:page==='class'?group:page==='person'?teacherName(teacher)+' 개인별':page==='room'?room+' 강의실별':menus[page]||'통합';
@@ -400,19 +443,21 @@ function copyCurrentImage(){
 async function jpgHTML(html,name){if(!window.html2canvas)return msg('이미지 저장 기능을 불러오지 못했습니다. 새로고침해 주세요.');msg('출력 이미지를 만들고 있습니다…');const container=document.createElement('div');container.style.cssText='position:absolute;left:-20000px;top:0;width:1400px;background:white;padding:45px;color:#1d334d';container.innerHTML=html;document.body.append(container);try{await document.fonts.ready;const pages=container.querySelectorAll('.page');for(let i=0;i<pages.length;i++){const canvas=await html2canvas(pages[i],{scale:1.6,backgroundColor:'#ffffff',logging:false});await new Promise(resolve=>canvas.toBlob(blob=>{const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`${name}-${i+1}.jpg`;a.click();setTimeout(()=>URL.revokeObjectURL(url),10000);resolve()},'image/jpeg',.95))}msg('JPG 저장 완료. 여러 페이지이면 브라우저의 다중 다운로드를 허용해 주세요.')}catch(err){msg('이미지 저장 실패: '+err.message)}finally{container.remove()}}
 function exportNotice(id,print){const n=state.notices.find(x=>x.id===id);if(!n)return;const html=`<section class="paper page"><div class="paperhead"><small>${TITLE}</small><h2>${esc(n.title)}</h2><p>${esc(n.group)} · ${esc(formatDate(n.createdAt.slice(0,10)))}</p></div><p style="white-space:pre-line;font-size:20px">${esc(n.body)}</p><div class="foot"><span>교육운영 담당 · ${esc(n.author)}</span><span>공유판 v${state.revision}</span></div></section>`;print?printHTML(html):jpgHTML(html,'KAI-공지')}
 async function start(){try{
-  state=await readShared();original=structuredClone(state);
+  let recoveryMessage='';
+  try{state=await readShared();}catch(error){let cached;try{cached=JSON.parse(localStorage.getItem(CACHE_KEY));}catch{}if(!cached)throw error;state=cached;offline=true;recoveryMessage='연결이 없어 이 단말에 보관한 시간표를 표시합니다.';}
+  original=structuredClone(state);
+  if(CAN_EDIT){let draft;try{draft=JSON.parse(localStorage.getItem(DRAFT_KEY));}catch{}
+    if(draft?.base&&draft?.next){try{const recovered=mergeShared(draft.base,draft.next,state);if(!sameSchedule(recovered,state)){state=recovered;dirty=true;changeSerial++;recoveryMessage='이전에 저장되지 않은 수정본을 복구했습니다. 연결되는 즉시 공유 저장합니다.';}else localStorage.removeItem(DRAFT_KEY);}catch(error){recoveryMessage=error.message+' 미저장 수정본 백업 버튼으로 보관 내용을 내려받을 수 있습니다.';}}
+  }
   if(IS_STUDENT){document.body.classList.add('student');$('menu').hidden=true;$('sidebar').remove();$('nav')?.remove();layout='list';}
   else{
     $('nav').innerHTML=Object.entries(menus).map(([k,v])=>'<button data-page="'+k+'">'+v+'</button>').join('');
     document.querySelectorAll('[data-page]').forEach(b=>b.onclick=()=>{page=b.dataset.page;render();});
-    $('publish').onclick=publish;$('publish').disabled=true;$('dirty').textContent='공유판 v'+state.revision+' · 저장됨';
+    $('publish').onclick=()=>publish();$('publish').disabled=!dirty;$('dirty').textContent=dirty?'복구한 변경사항 저장 중…':'공유판 v'+state.revision+' · 모든 변경 저장됨';on('draft-backup','onclick',draftBackup);try{$('draft-backup').hidden=!localStorage.getItem(DRAFT_KEY);}catch{}
     $('menu').onclick=()=>{const hidden=document.body.classList.toggle('collapsed');$('menu').setAttribute('aria-expanded',String(!hidden));};
   }
   $('close').onclick=()=>$('modal').close();$('modal').addEventListener('close',()=>$('modal').classList.remove('print-dialog','plan-dialog'));
   on('clipboard-image','onclick',copyCurrentImage);$('print').onclick=openPrintPreview;$('jpg').onclick=()=>{try{const result=buildPrintDocument();jpgHTML(result.html,'KAI-'+result.ctx.scope+'-'+result.ctx.mode+'-'+(rangeEnabled?rangeStart+'_'+rangeEnd:month));}catch(err){msg(err.message);}};
-  render();msg(IS_STUDENT?'해당 반의 공개 일정입니다. 마지막 공유: '+new Date(state.updatedAt).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'}):'링크를 가진 누구나 수정할 수 있습니다. 변경 후 수정·공지 공유 저장을 눌러 주세요.');
+  render();msg(recoveryMessage||(IS_STUDENT?'해당 반의 공개 일정입니다. 마지막 공유: '+new Date(state.updatedAt).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'}):'변경사항과 누적 이력은 자동 저장되며 모든 단말에 공유됩니다.'));if(dirty){window.onbeforeunload=()=>true;keepDraft();publish();}
 }catch(err){msg(err.message);}}
-if(typeof document!=='undefined'){start();setInterval(async()=>{
-  if(!state||dirty||busy||document.hidden)return;
-  try{const next=await readShared();if(next.revision>state.revision){state=next;original=structuredClone(next);if(!IS_STUDENT)$('dirty').textContent='공유판 v'+state.revision+' · 저장됨';render();msg('최신 공유 일정과 공지를 반영했습니다.');}}catch{}
-},15000);}
+if(typeof document!=='undefined'){start();setInterval(syncShared,5000);document.addEventListener('visibilitychange',()=>{if(!document.hidden)syncShared();});window.addEventListener('focus',syncShared);window.addEventListener('online',syncShared);}
