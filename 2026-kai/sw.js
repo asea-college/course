@@ -1,6 +1,6 @@
 'use strict';
-const CACHE='kai-calendar-shell-20261119-install';
-const SHELL=['./calendar.html','./a.html','./b.html','./app.js?v=20261119-device-install','./app.css?v=20261119-device-install','./html2canvas.min.js','./qrcode.min.js','./manifest.webmanifest','./icon-192.png','./icon-512.png'];
+const CACHE='kai-calendar-shell-20261119-install-right';
+const SHELL=['./calendar.html','./a.html','./b.html','./app.js?v=20261119-device-install','./app.css?v=20261119-install-right','./html2canvas.min.js','./qrcode.min.js','./manifest.webmanifest','./icon-192.png','./icon-512.png'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting()));});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('kai-calendar-shell-')&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim()));});
 self.addEventListener('fetch',event=>{
