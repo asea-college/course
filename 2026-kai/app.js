@@ -105,7 +105,11 @@ function changePlanner(seed){
     $(`exchange-${side}-periods`).innerHTML=b?b.ids.map(id=>{const e=state.events.find(x=>x.id===id);return `<label><input type="checkbox" data-exchange-pick="${side}" value="${esc(id)}" checked> ${e.period}교시 <small>${esc(time(e.period))} · ${slotMinutes(e)}분</small></label>`;}).join(''):'<p>조건에 맞는 수업이 없습니다.</p>';
   }
   function pickList(side){
-    const teacher=$(`exchange-${side}-teacher`).value,subject=$(`exchange-${side}-subject`).value;
+    const teacher=$(`exchange-${side}-teacher`).value,subjectSelect=$(`exchange-${side}-subject`),previousSubject=subjectSelect.value;
+    const subjects=[...new Set(blocks.filter(e=>!teacher||e.teacher===teacher).map(e=>e.subject).filter(Boolean))].sort();
+    const selectedSubject=subjects.includes(previousSubject)?previousSubject:subjects.length===1?subjects[0]:'';
+    subjectSelect.innerHTML='<option value="">전체 과목</option>'+opts(subjects,selectedSubject);subjectSelect.value=selectedSubject;
+    const subject=subjectSelect.value;
     const list=blocks.map((e,i)=>({e,i})).filter(({e})=>(!teacher||e.teacher===teacher)&&(!subject||e.subject===subject));
     $(`exchange-${side}-block`).innerHTML=list.map(({e,i})=>`<option value="${i}">${esc(formatDate(e.date)+' '+e.group+' '+e.period+'~'+e.last+'교시 / '+e.title+' / '+e.teacher)}</option>`).join('');
     if(side==='left'&&seed){const selected=list.find(x=>x.e.ids.includes(seed.id));if(selected)$(`exchange-${side}-block`).value=String(selected.i);}pickPeriods(side);
